@@ -1,0 +1,9 @@
+- event-name: Birthday Party!
+  time: "7PM"
+  location: "Chicago"
+
+- event-name: Funeral
+  time: "10AM"
+  location: "St. Charles"
+
+
