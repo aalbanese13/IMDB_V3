@@ -1,3 +1,10 @@
 .c-header {
-  border: 1px solid $color-border-dark;
+  background: url("/assets/top-bar-background.png");
+  position: relative;
+}
+
+.c-header__menu {
+  position: absolute;
+  right: $spacing-large;
+  top: $spacing-large;
 }

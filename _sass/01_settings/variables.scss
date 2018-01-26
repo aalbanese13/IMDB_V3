@@ -70,7 +70,7 @@ $font-size-text-xx-small: .625rem;
 $font-size-text-x-small: .625rem;
 $font-size-text-small: .7rem;
 $font-size-text-medium: .8rem;
-$font-size-text-large: .95rem;
+$font-size-text-large: 1rem;
 $font-size-text-x-large: 1.05rem;
 
 // Line Height
@@ -86,12 +86,9 @@ $letter-spacing-narrow: -10px;
 // Spacing
 
 $spacing-none: 0;
-$spacing-x-small: .5rem;
-$spacing-xx-small: .25rem;
-$spacing-xxx-small: .125rem;
-$spacing-small: .75rem;
+$spacing-small: .625rem;
 $spacing-medium: 1rem;
-$spacing-large: 1.5rem;
+$spacing-large: 1.3rem;
 $spacing-x-large: 2rem;
 $spacing-xx-large: 3rem;
 $spacing-xxx-large: 4rem;
@@ -110,7 +107,7 @@ $positioning-centered: 0 auto;
 // Radius
 
 $border-radius-circle: 50%;
-$border-radius-small: 2px;
+$border-radius-small: 3px;
 $border-radius-medium: 5px;
 $border-radius-large: 7px;
 $border-radius-x-large: 12px;

@@ -435,11 +435,46 @@ small {
   color: #C5C5C5;
   font-size: 1rem; }
 
+.wrapper__content {
+  padding: 1.3rem; }
+
+.wrapper__module {
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem; }
+
 .c-header {
-  border: 1px solid #C5C5C5; }
+  background: url("/assets/top-bar-background.png");
+  position: relative; }
+
+.c-header__menu {
+  position: absolute;
+  right: 1.3rem;
+  top: 1.3rem; }
 
 .c-footer {
   background: #e6e6e6;
   border-top: 1px solid #C5C5C5;
   text-align: center;
   padding: 4rem 0 4rem 0; }
+
+.c-search {
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 5px;
+  display: flex;
+  height: 2.4rem;
+  margin-top: 0.625rem;
+  padding-left: 0.625rem;
+  width: 100%; }
+
+.c-search__term {
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding-left: 0.625rem;
+  width: 100%;
+  margin: 0;
+  height: 100%; }
+
+.c-search__icon {
+  display: flex; }
