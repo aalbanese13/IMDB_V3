@@ -6,15 +6,6 @@
   position: relative;
   width: 100%;
 
-  h2,
-  h3 {
-    bottom: $spacing-large;
-    color: $color-white;
-    display: block;
-    left: $spacing-x-large;
-    position: absolute;
-  }
-
   @media #{$medium-up} {
     height: 15rem;
     width: calc(50% - .75rem);
@@ -27,8 +18,23 @@
 }
 
 .c-released__container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: $spacing-medium;
   width: 100%;
+
+  @media #{$medium-up} {
+    display: flex;
+    justify-content: space-between;
+    margin-top: $spacing-medium;
+  }
+}
+
+.c-released__metadata {
+  display: none;
+
+  @media #{$medium-up} {
+    bottom: $spacing-large;
+    color: $color-white;
+    display: block;
+    left: $spacing-x-large;
+    position: absolute;
+  }
 }

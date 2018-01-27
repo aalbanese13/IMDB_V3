@@ -1,5 +1,17 @@
 .o-wrapper__content {
-  padding: $spacing-medium $spacing-large;
+  padding: 0 $spacing-small;
+
+  @media #{$medium-up} {
+    padding: $spacing-large $spacing-xx-large;
+  }
+
+  @media #{$large-up} {
+    padding: $spacing-xx-large $spacing-xxx-large;
+  }
+}
+
+.o-wrapper__module {
+  padding: $spacing-large 0;
 
   @media #{$medium-up} {
     padding: $spacing-large $spacing-xx-large;
