@@ -448,7 +448,7 @@ small {
       padding: 7.5rem 12rem; } }
 
 .c-header__nav-bar {
-  padding: 2.2rem;
+  padding: 1.3rem;
   padding-bottom: 0; }
 
 .c-header__menu {
@@ -498,7 +498,7 @@ small {
         font-size: 1.5rem; } }
 
 .c-header__wrapper {
-  padding: 2.2rem; }
+  padding: 1.3rem; }
   @media only screen and (min-width: 43.063em) {
     .c-header__wrapper {
       display: flex;
