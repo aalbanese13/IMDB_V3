@@ -439,16 +439,16 @@ small {
   list-style-type: none; }
 
 .o-wrapper__content {
-  padding: 1rem 1.3rem; }
+  padding: 1.5rem 2.2rem; }
   @media only screen and (min-width: 43.063em) {
     .o-wrapper__content {
-      padding: 1.3rem 7.5rem; } }
+      padding: 2.2rem 7.5rem; } }
   @media only screen and (min-width: 90.063em) {
     .o-wrapper__content {
       padding: 7.5rem 12rem; } }
 
 .c-header__nav-bar {
-  padding: 1.3rem;
+  padding: 2.2rem;
   padding-bottom: 0; }
 
 .c-header__menu {
@@ -460,7 +460,7 @@ small {
       .c-header__menu h3 {
         color: #FFF; }
       .c-header__menu li {
-        padding-left: 1.3rem; } }
+        padding-left: 2.2rem; } }
 
 .c-header {
   background: url("/assets/top-bar-bg.png");
@@ -498,7 +498,7 @@ small {
         font-size: 1.5rem; } }
 
 .c-header__wrapper {
-  padding: 1.3rem; }
+  padding: 2.2rem; }
   @media only screen and (min-width: 43.063em) {
     .c-header__wrapper {
       display: flex;
@@ -516,6 +516,30 @@ small {
   border-top: 1px solid #C5C5C5;
   text-align: center;
   padding: 12rem 0 12rem 0; }
+
+.c-released__trailer {
+  background: url("/assets/the-post.png");
+  align-items: center;
+  display: flex;
+  height: 25rem;
+  justify-content: space-around;
+  position: relative;
+  width: calc(50% - .75rem); }
+  .c-released__trailer h2,
+  .c-released__trailer h3 {
+    bottom: 2.2rem;
+    color: #FFF;
+    display: block;
+    left: 5.3rem;
+    position: absolute; }
+
+.c-released__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  width: 100%; }
+  .c-released__container div:last-child {
+    background: url("/assets/the-square.png"); }
 
 @media only screen and (min-width: 43.063em) {
   .c-icons__logo {
@@ -542,14 +566,14 @@ small {
   border-radius: 5px;
   display: flex;
   height: 2.4rem;
-  padding-left: 0.625rem;
+  padding-left: 1.3rem;
   width: 100%; }
 
 .c-search__term {
   border-style: none;
   border-radius: 5px;
   font-size: 1.25rem;
-  padding-left: 0.625rem;
+  padding-left: 1.3rem;
   width: 100%;
   margin: 0;
   height: 100%; }

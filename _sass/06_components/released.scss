@@ -1,0 +1,29 @@
+.c-released__trailer {
+  background: url('/assets/the-post.png');
+  align-items: center;
+  display: flex;
+  height: 25rem;
+  justify-content: space-around;
+  position: relative;
+  width: calc(50% - .75rem);
+
+  h2,
+  h3 {
+    bottom: $spacing-large;
+    color: $color-white;
+    display: block;
+    left: $spacing-x-large;
+    position: absolute;
+  }
+}
+
+.c-released__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $spacing-medium;
+  width: 100%;
+
+  div:last-child {
+    background: url('/assets/the-square.png');
+  }
+}
