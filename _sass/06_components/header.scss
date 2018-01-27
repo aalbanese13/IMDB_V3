@@ -3,6 +3,23 @@
   padding-bottom: 0;
 }
 
+.c-header__menu {
+  display: none;
+
+  @media #{$medium-up} {
+    display: inline-flex;
+    float: right;
+
+    h3 {
+      color: $color-white;
+    }
+
+    li {
+      padding-left: $spacing-medium;
+    }
+  }
+}
+
 .c-header {
   background: url('/assets/top-bar-bg.png');
   background-position: cover;

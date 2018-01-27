@@ -9,7 +9,7 @@
   display: none;
 
   @media #{$medium-up} {
-    display: block;
+    display: inline-block;
   }
 }
 

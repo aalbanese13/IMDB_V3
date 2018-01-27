@@ -435,6 +435,9 @@ small {
   color: #C5C5C5;
   font-size: 1rem; }
 
+.e-no-bullet {
+  list-style-type: none; }
+
 .o-wrapper__content {
   padding: 1rem 1.3rem; }
   @media only screen and (min-width: 43.063em) {
@@ -447,6 +450,17 @@ small {
 .c-header__nav-bar {
   padding: 1.3rem;
   padding-bottom: 0; }
+
+.c-header__menu {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-header__menu {
+      display: inline-flex;
+      float: right; }
+      .c-header__menu h3 {
+        color: #FFF; }
+      .c-header__menu li {
+        padding-left: 1rem; } }
 
 .c-header {
   background: url("/assets/top-bar-bg.png");
@@ -509,7 +523,7 @@ small {
   display: none; }
   @media only screen and (min-width: 43.063em) {
     .c-icons__logo--large {
-      display: block; } }
+      display: inline-block; } }
 
 .c-icons__menu {
   float: right; }
