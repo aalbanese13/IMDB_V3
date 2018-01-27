@@ -443,7 +443,7 @@ small {
   @media only screen and (min-width: 43.063em) {
     .o-wrapper__content {
       padding: 2.2rem 7.5rem; } }
-  @media only screen and (min-width: 90.063em) {
+  @media only screen and (min-width: 75.063em) {
     .o-wrapper__content {
       padding: 7.5rem 12rem; } }
 
@@ -471,7 +471,7 @@ small {
     .c-header {
       background: url("/assets/i-tonya.png");
       height: 30rem; } }
-  @media only screen and (min-width: 90.063em) {
+  @media only screen and (min-width: 75.063em) {
     .c-header {
       background: url("/assets/i-tonya-new.png");
       height: 40rem; } }
@@ -504,7 +504,7 @@ small {
       display: flex;
       justify-content: space-around;
       padding-top: 7.5rem; } }
-  @media only screen and (min-width: 90.063em) {
+  @media only screen and (min-width: 75.063em) {
     .c-header__wrapper {
       padding-top: 12rem; } }
   @media only screen and (min-width: 110.063em) {
@@ -518,13 +518,12 @@ small {
   padding: 12rem 0 12rem 0; }
 
 .c-released__trailer {
-  background: url("/assets/the-post.png");
   align-items: center;
   display: flex;
-  height: 25rem;
+  height: 10rem;
   justify-content: space-around;
   position: relative;
-  width: calc(50% - .75rem); }
+  width: 100%; }
   .c-released__trailer h2,
   .c-released__trailer h3 {
     bottom: 2.2rem;
@@ -532,14 +531,20 @@ small {
     display: block;
     left: 5.3rem;
     position: absolute; }
+  @media only screen and (min-width: 43.063em) {
+    .c-released__trailer {
+      height: 15rem;
+      width: calc(50% - .75rem); } }
+  @media only screen and (min-width: 75.063em) {
+    .c-released__trailer {
+      height: 25rem;
+      width: calc(50% - .75rem); } }
 
 .c-released__container {
   display: flex;
   justify-content: space-between;
   margin-top: 1.5rem;
   width: 100%; }
-  .c-released__container div:last-child {
-    background: url("/assets/the-square.png"); }
 
 @media only screen and (min-width: 43.063em) {
   .c-icons__logo {
@@ -559,6 +564,32 @@ small {
 
 .c-icons__search {
   line-height: 0; }
+
+.c-images__1 {
+  background: url("/assets/i-tonya.png");
+  background-position: center;
+  background-size: cover; }
+  @media only screen and (min-width: 43.063em) {
+    .c-images__1 {
+      display: none; } }
+
+.c-images__2 {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-images__2 {
+      background: url("/assets/the-post.png");
+      background-position: center;
+      background-size: cover;
+      display: flex; } }
+
+.c-images__3 {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-images__3 {
+      background: url("/assets/the-square.png");
+      background-position: center;
+      background-size: cover;
+      display: flex; } }
 
 .c-search {
   align-items: center;

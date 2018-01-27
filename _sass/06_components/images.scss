@@ -1,0 +1,31 @@
+.c-images__1 {
+  background: url('/assets/i-tonya.png');
+  background-position: center;
+  background-size: cover;
+
+  @media #{$medium-up} {
+    display: none;
+  }
+}
+
+.c-images__2 {
+  display: none;
+
+  @media #{$medium-up} {
+    background: url('/assets/the-post.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
+}
+
+.c-images__3 {
+  display: none;
+
+  @media #{$medium-up} {
+    background: url('/assets/the-square.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
+}
