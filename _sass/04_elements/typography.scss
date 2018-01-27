@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700');
+
 html {
   font-family: $font-family;
   font-weight: $font-weight-regular;
@@ -6,23 +8,22 @@ html {
 
 h1 {
   color: $color-black;
-  font-size: $font-size-heading-small;
+  font-size: $font-size-heading-medium;
   font-weight: $font-weight-bold;
   line-height: $line-height-heading;
 }
 
 h2 {
   color: $color-black;
-  font-size: $font-size-heading-large;
+  font-size: $font-size-heading-small;
   font-weight: $font-weight-bold;
   line-height: $line-height-heading;
 }
 
 h3 {
   color: $color-primary;
-  font-family: $font-family-bold;
-  font-size: $font-size-text-small;
-  font-weight: normal;
+  font-size: $font-size-heading-x-small;
+  font-weight: $font-weight-bold;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;

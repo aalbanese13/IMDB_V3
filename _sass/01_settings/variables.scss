@@ -46,32 +46,22 @@ $color-shadow: #EFEFEF;
 
 // Fonts
 
-$font-family: 'Helvetica', Arial, sans-serif;
+$font-family: 'Ubuntu', sans-serif;
 $font-family-regular: $font-family;
-$font-family-light: 'Helvetica Light', Arial, sans-serif;
-$font-family-medium: 'Helvetica ', Arial, sans-serif;
-$font-family-bold: 'Helvetica Bold', Arial, sans-serif;
-$font-family-monospace: monospace;
-$font-weight-regular: 300;
-$font-weight-bold: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
 
 // Font Size
 
-$font-size-heading-xx-small: .825rem;
-$font-size-heading-x-small: 1rem;
+$font-size-heading-x-small: .75rem;
 $font-size-heading-small: 1.25rem;
 $font-size-heading-medium: 1.5rem;
 $font-size-heading-large: 2.25rem;
-$font-size-heading-x-large: 3rem;
-$font-size-heading-xx-large: 4.5rem;
-$font-size-heading-xxx-large: 10rem;
+$font-size-heading-x-large: 3.25rem;
 
-$font-size-text-xx-small: .625rem;
-$font-size-text-x-small: .625rem;
-$font-size-text-small: .7rem;
-$font-size-text-medium: .8rem;
-$font-size-text-large: 1rem;
-$font-size-text-x-large: 1.05rem;
+$font-size-text-medium: 1rem;
+$font-size-text-large: 1.25rem;
+
 
 // Line Height
 

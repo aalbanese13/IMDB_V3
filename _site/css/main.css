@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700");
 html {
   box-sizing: border-box;
   line-height: 1.15;
@@ -401,39 +402,38 @@ a {
   text-decoration: underline; }
 
 html {
-  font-family: "Helvetica", Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
   line-height: 1.5; }
 
 h1 {
   color: #3E4045;
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 1.25; }
 
 h2 {
   color: #3E4045;
-  font-size: 2.25rem;
-  font-weight: 300;
+  font-size: 1.25rem;
+  font-weight: 700;
   line-height: 1.25; }
 
 h3 {
   color: #01508D;
-  font-family: "Helvetica Bold", Arial, sans-serif;
-  font-size: 0.7rem;
-  font-weight: normal;
+  font-size: 0.75rem;
+  font-weight: 700;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase; }
 
 p {
   color: #01508D;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0; }
 
 small {
   color: #C5C5C5;
-  font-size: 1rem; }
+  font-size: 0.75rem; }
 
 .e-no-bullet {
   list-style-type: none; }
@@ -460,7 +460,7 @@ small {
       .c-header__menu h3 {
         color: #FFF; }
       .c-header__menu li {
-        padding-left: 1rem; } }
+        padding-left: 1.3rem; } }
 
 .c-header {
   background: url("/assets/top-bar-bg.png");
@@ -473,7 +473,7 @@ small {
       height: 30rem; } }
   @media only screen and (min-width: 90.063em) {
     .c-header {
-      background: url("/assets/i-tonya-large2.png");
+      background: url("/assets/i-tonya-new.png");
       height: 40rem; } }
   @media only screen and (min-width: 110.063em) {
     .c-header {
@@ -493,7 +493,9 @@ small {
     display: none; }
     @media only screen and (min-width: 43.063em) {
       .c-header__content h2 {
-        display: block; } }
+        color: #FFF;
+        display: block;
+        font-size: 1.5rem; } }
 
 .c-header__wrapper {
   padding: 1.3rem; }
@@ -546,7 +548,7 @@ small {
 .c-search__term {
   border-style: none;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding-left: 0.625rem;
   width: 100%;
   margin: 0;

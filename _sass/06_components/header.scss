@@ -15,7 +15,7 @@
     }
 
     li {
-      padding-left: $spacing-medium;
+      padding-left: $spacing-large;
     }
   }
 }
@@ -32,7 +32,7 @@
   }
 
   @media #{$large-up} {
-    background: url('/assets/i-tonya-large2.png');
+    background: url('/assets/i-tonya-new.png');
     height: 40rem;
   }
 
@@ -57,7 +57,9 @@
     display: none;
 
     @media #{$medium-up} {
+      color: $color-white;
       display: block;
+      font-size: $font-size-heading-medium;
     }
   }
 }
