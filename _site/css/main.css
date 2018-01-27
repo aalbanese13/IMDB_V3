@@ -529,7 +529,7 @@ small {
 .c-released__trailer {
   align-items: center;
   display: flex;
-  height: 10rem;
+  height: 15rem;
   justify-content: space-around;
   position: relative;
   width: 100%; }
@@ -559,6 +559,18 @@ small {
       display: block;
       left: 5.3rem;
       position: absolute; } }
+
+@media only screen and (min-width: 43.063em) {
+  .c-released__heading {
+    display: none; } }
+
+.c-released__swipeys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.625rem; }
+  @media only screen and (min-width: 43.063em) {
+    .c-released__swipeys {
+      display: none; } }
 
 @media only screen and (min-width: 43.063em) {
   .c-icons__logo {

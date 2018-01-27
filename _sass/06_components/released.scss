@@ -1,7 +1,7 @@
 .c-released__trailer {
   align-items: center;
   display: flex;
-  height: 10rem;
+  height: 15rem;
   justify-content: space-around;
   position: relative;
   width: 100%;
@@ -36,5 +36,22 @@
     display: block;
     left: $spacing-x-large;
     position: absolute;
+  }
+}
+
+.c-released__heading, {
+
+  @media #{$medium-up} {
+    display: none;
+  }
+}
+
+.c-released__swipeys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: $spacing-x-small;
+
+  @media #{$medium-up} {
+    display: none;
   }
 }
