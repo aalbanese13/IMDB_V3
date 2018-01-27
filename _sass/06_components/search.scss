@@ -4,7 +4,6 @@
   border-radius: $border-radius-medium;
   display: flex;
   height: 2.4rem;
-  margin-top: $spacing-small;
   padding-left: $spacing-small;
   width: 100%;
 }
@@ -17,8 +16,4 @@
   width: 100%;
   margin: 0;
   height: 100%;
-}
-
-.c-search__icon {
-  display: flex;
 }

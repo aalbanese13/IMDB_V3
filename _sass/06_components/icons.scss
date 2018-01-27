@@ -1,0 +1,26 @@
+.c-icons__logo {
+
+  @media #{$medium-up} {
+    display: none;
+  }
+}
+
+.c-icons__logo--large {
+  display: none;
+
+  @media #{$medium-up} {
+    display: block;
+  }
+}
+
+.c-icons__menu {
+  float: right;
+
+  @media #{$medium-up} {
+    display: none;
+  }
+}
+
+.c-icons__search {
+  line-height: 0;
+}

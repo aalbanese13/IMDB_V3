@@ -1,10 +1,64 @@
-.c-header {
-  background: url("/assets/top-bar-background.png");
-  position: relative;
+.c-header__nav-bar {
+  padding: $spacing-large;
+  padding-bottom: 0;
 }
 
-.c-header__menu {
-  position: absolute;
-  right: $spacing-large;
-  top: $spacing-large;
+.c-header {
+  background: url('/assets/top-bar-bg.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 9rem;
+
+  @media #{$medium-up} {
+    background: url('/assets/i-tonya.png');
+    height: 30rem;
+  }
+
+  @media #{$large-up} {
+    background: url('/assets/i-tonya-large2.png');
+    height: 40rem;
+  }
+
+  @media #{$x-large-up} {
+    background: url('/assets/i-tonya-massive.png');
+    height: 50rem;
+  }
+}
+
+.c-header__content {
+  display: block;
+  text-align: center;
+  width: 100%;
+
+  @media #{$medium-up} {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+  }
+
+  h2 {
+    display: none;
+
+    @media #{$medium-up} {
+      display: block;
+    }
+  }
+}
+
+.c-header__wrapper {
+  padding: $spacing-large;
+
+  @media #{$medium-up} {
+    display: flex;
+    justify-content: space-around;
+    padding-top: $spacing-xx-large;
+  }
+
+  @media #{$large-up} {
+    padding-top: $spacing-xxx-large;
+  }
+
+  @media #{$x-large-up} {
+    padding-top: 20rem;
+  }
 }
