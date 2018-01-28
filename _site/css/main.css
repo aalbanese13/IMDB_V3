@@ -868,6 +868,24 @@ small {
     .c-streaming__item {
       height: 35rem; } }
 
+.c-button {
+  border: 1px solid #E19F08;
+  border-radius: 3px;
+  height: 2.6rem;
+  margin-top: 1.3rem;
+  width: 100%; }
+  @media only screen and (min-width: 43.063em) {
+    .c-button {
+      display: none; } }
+
+.c-button:hover {
+  background-color: #E19F08;
+  border-style: none;
+  color: #FFF;
+  cursor: pointer; }
+  .c-button:hover h3 {
+    color: #FFF; }
+
 @media only screen and (min-width: 43.063em) {
   .c-welcome {
     display: none; } }
