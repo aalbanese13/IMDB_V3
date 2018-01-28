@@ -23,7 +23,22 @@
   @media #{$medium-up} {
     display: flex;
     justify-content: space-between;
-    margin-top: $spacing-medium;
+  }
+
+  div:first-child {
+    display: flex;
+
+    @media #{$medium-up} {
+      display: none;
+    }
+  }
+
+  div:nth-last-child(-n+2) {
+    display: none;
+
+    @media #{$medium-up} {
+      display: flex;
+    }
   }
 }
 
