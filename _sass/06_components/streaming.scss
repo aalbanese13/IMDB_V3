@@ -11,6 +11,14 @@
   @media #{$medium-up} {
     width: calc(33% - .75rem);
   }
+
+  div:last-child {
+    display: none;
+
+    @media #{$medium-up} {
+      display: flex;
+    }
+  }
 }
 
 .c-streaming__item {
@@ -22,14 +30,5 @@
 
   @media #{$large-up} {
     height: 35rem;
-  }
-}
-
-.c-streaming__panel--large {
-  display: none;
-
-  @media #{$medium-up} {
-    display: block;
-    width: calc(33% - .75rem);
   }
 }
