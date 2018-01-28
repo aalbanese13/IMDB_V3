@@ -1,19 +1,30 @@
-.c-occasion__row {
+.c-occasion__module {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 100%;
-  margin-top: $spacing-x-small;
 }
 
 .c-occasion__card {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  display: flex;
   height: 6rem;
+  justify-content: space-around;
+  margin-top: $spacing-x-small;
   width: calc(33% - .3rem);
 
   h3 {
     color: $color-white;
+  }
+
+  @media #{$medium-up} {
+    height: 6rem;
+    width: calc(16% - .75rem);
+    margin-top: $spacing-small;
+  }
+
+  @media #{$large-up} {
+    height: 9rem;
+    margin-top: $spacing-medium;
   }
 }

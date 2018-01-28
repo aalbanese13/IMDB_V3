@@ -700,21 +700,30 @@ small {
   .c-welcome {
     display: none; } }
 
-.c-occasion__row {
+.c-occasion__module {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 100%;
-  margin-top: 0.625rem; }
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 .c-occasion__card {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  display: flex;
   height: 6rem;
+  justify-content: space-around;
+  margin-top: 0.625rem;
   width: calc(33% - .3rem); }
   .c-occasion__card h3 {
     color: #FFF; }
+  @media only screen and (min-width: 43.063em) {
+    .c-occasion__card {
+      height: 6rem;
+      width: calc(16% - .75rem);
+      margin-top: 1.3rem; } }
+  @media only screen and (min-width: 75.063em) {
+    .c-occasion__card {
+      height: 9rem;
+      margin-top: 1.5rem; } }
 
 .c-search {
   align-items: center;
