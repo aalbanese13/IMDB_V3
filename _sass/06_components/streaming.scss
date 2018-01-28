@@ -1,0 +1,18 @@
+.c-streaming__module {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c-streaming__panel {
+  width: calc(50% - .3125rem);
+}
+
+.c-streaming__item {
+  height: 12.68rem;
+}
+
+.c-streaming__panel--large {
+  display: none;
+}

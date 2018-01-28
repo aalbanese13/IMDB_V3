@@ -1,7 +1,6 @@
 .c-images__1 {
-  background: url('/assets/i-tonya.png');
-  background-position: center;
-  background-size: cover;
+  background: url('/assets/i-tonya-new.png');
+  @include cover-center;
 
   @media #{$medium-up} {
     display: none;
@@ -13,8 +12,7 @@
 
   @media #{$medium-up} {
     background: url('/assets/the-post.png');
-    background-position: center;
-    background-size: cover;
+    @include cover-center;
     display: flex;
   }
 }
@@ -24,8 +22,26 @@
 
   @media #{$medium-up} {
     background: url('/assets/the-square.png');
-    background-position: center;
-    background-size: cover;
+    @include cover-center;
     display: flex;
+  }
+}
+
+.c-images__4 {
+  background: url('/assets/maisel.png');
+  @include cover-center;
+}
+
+.c-images__5 {
+  background: url('/assets/crown.png');
+  @include cover-center;
+}
+
+.c-images__6 {
+  display: none;
+
+  @media #{$medium-up} {
+    background: url('/assets/this-is-us.png');
+    @include cover-center;
   }
 }

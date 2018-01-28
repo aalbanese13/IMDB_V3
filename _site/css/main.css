@@ -439,7 +439,8 @@ small {
   list-style-type: none; }
 
 .o-wrapper__content {
-  padding: 0 1.3rem; }
+  padding: 0 1.3rem;
+  width: 100%; }
   @media only screen and (min-width: 43.063em) {
     .o-wrapper__content {
       padding: 2.2rem 7.5rem; } }
@@ -455,6 +456,11 @@ small {
   @media only screen and (min-width: 75.063em) {
     .o-wrapper__module {
       padding: 7.5rem 12rem; } }
+
+.o-flex__horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 .c-header__nav-bar {
   padding: 1.3rem;
@@ -478,7 +484,7 @@ small {
   height: 9rem; }
   @media only screen and (min-width: 43.063em) {
     .c-header {
-      background: url("/assets/i-tonya.png");
+      background: url("/assets/i-tonya-new.png");
       height: 30rem; } }
   @media only screen and (min-width: 75.063em) {
     .c-header {
@@ -592,9 +598,9 @@ small {
   line-height: 0; }
 
 .c-images__1 {
-  background: url("/assets/i-tonya.png");
-  background-position: center;
-  background-size: cover; }
+  background: url("/assets/i-tonya-new.png");
+  background-size: cover;
+  background-position: center center; }
   @media only screen and (min-width: 43.063em) {
     .c-images__1 {
       display: none; } }
@@ -604,8 +610,8 @@ small {
   @media only screen and (min-width: 43.063em) {
     .c-images__2 {
       background: url("/assets/the-post.png");
-      background-position: center;
       background-size: cover;
+      background-position: center center;
       display: flex; } }
 
 .c-images__3 {
@@ -613,9 +619,42 @@ small {
   @media only screen and (min-width: 43.063em) {
     .c-images__3 {
       background: url("/assets/the-square.png");
-      background-position: center;
       background-size: cover;
+      background-position: center center;
       display: flex; } }
+
+.c-images__4 {
+  background: url("/assets/maisel.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__5 {
+  background: url("/assets/crown.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__6 {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-images__6 {
+      background: url("/assets/this-is-us.png");
+      background-size: cover;
+      background-position: center center; } }
+
+.c-streaming__module {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+.c-streaming__panel {
+  width: calc(50% - .3125rem); }
+
+.c-streaming__item {
+  height: 12.68rem; }
+
+.c-streaming__panel--large {
+  display: none; }
 
 @media only screen and (min-width: 43.063em) {
   .c-welcome {

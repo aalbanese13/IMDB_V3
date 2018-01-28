@@ -1,5 +1,6 @@
 .o-wrapper__content {
   padding: 0 $spacing-small;
+  width: 100%;
 
   @media #{$medium-up} {
     padding: $spacing-large $spacing-xx-large;

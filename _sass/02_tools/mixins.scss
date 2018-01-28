@@ -9,3 +9,8 @@
   overflow: scroll;
   position: relative;
 }
+
+@mixin cover-center {
+  background-size: cover;
+  background-position: center center;
+}
