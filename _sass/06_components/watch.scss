@@ -1,5 +1,18 @@
+.c-watch__module {
+  width: 100%;
+
+  @media #{$medium-up} {
+    display: flex;
+  }
+}
+
 .c-watch__primary {
   height: 15rem;
+
+  @media #{$medium-up} {
+    height: 15rem;
+    width: 50%;
+  }
 }
 
 .c-watch__secondary {
@@ -12,10 +25,25 @@
   div:last-child {
     margin-right: 0;
   }
+
+  @media #{$medium-up} {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 15rem;
+    margin-left: $spacing-small;
+    margin-top: 0;
+    width: 50%;
+  }
 }
 
 .c-watch__item {
   height: 5rem;
   margin-right: $spacing-x-small;
   width: 25%;
+
+  @media #{$medium-up} {
+    height: calc(50% - .75rem);
+    margin-right: 0;
+    width: calc(50% - 1.5rem);
+  }
 }

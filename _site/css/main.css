@@ -709,8 +709,18 @@ small {
   .c-card h3 {
     color: #FFF; }
 
+.c-watch__module {
+  width: 100%; }
+  @media only screen and (min-width: 43.063em) {
+    .c-watch__module {
+      display: flex; } }
+
 .c-watch__primary {
   height: 15rem; }
+  @media only screen and (min-width: 43.063em) {
+    .c-watch__primary {
+      height: 15rem;
+      width: 50%; } }
 
 .c-watch__secondary {
   display: flex;
@@ -720,11 +730,24 @@ small {
   width: 100%; }
   .c-watch__secondary div:last-child {
     margin-right: 0; }
+  @media only screen and (min-width: 43.063em) {
+    .c-watch__secondary {
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 15rem;
+      margin-left: 1.3rem;
+      margin-top: 0;
+      width: 50%; } }
 
 .c-watch__item {
   height: 5rem;
   margin-right: 0.625rem;
   width: 25%; }
+  @media only screen and (min-width: 43.063em) {
+    .c-watch__item {
+      height: calc(50% - .75rem);
+      margin-right: 0;
+      width: calc(50% - 1.5rem); } }
 
 .c-occasion__module {
   display: flex;
