@@ -1,0 +1,10 @@
+.c-explore__item {
+  height: 9rem;
+  width: calc(33% - .3rem);
+}
+
+.c-explore__module {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

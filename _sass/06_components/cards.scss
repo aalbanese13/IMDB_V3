@@ -1,0 +1,20 @@
+.c-flex__horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.c-card {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  h3 {
+    color: $color-white;
+  }
+}
+
+.c-cards__subtitle {
+  max-width: 80%;
+  text-align: center;
+}
