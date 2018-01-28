@@ -1,6 +1,16 @@
 .c-explore__item {
   height: 9rem;
-  width: calc(33% - .3rem);
+  width: calc(25% - .3rem);
+
+  @media #{$medium-up} {
+    height: 20rem;
+    width: calc(25% - .75rem);
+  }
+
+  @media #{$large-up} {
+    height: 28rem;
+    width: calc(25% - .75rem);
+  }
 }
 
 .c-explore__module {

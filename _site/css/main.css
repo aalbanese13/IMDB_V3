@@ -459,7 +459,15 @@ small {
 
 .c-explore__item {
   height: 9rem;
-  width: calc(33% - .3rem); }
+  width: calc(25% - .3rem); }
+  @media only screen and (min-width: 43.063em) {
+    .c-explore__item {
+      height: 20rem;
+      width: calc(25% - .75rem); } }
+  @media only screen and (min-width: 75.063em) {
+    .c-explore__item {
+      height: 28rem;
+      width: calc(25% - .75rem); } }
 
 .c-explore__module {
   display: flex;
@@ -638,6 +646,11 @@ small {
 
 .c-images__15 {
   background: url("/assets/film.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__16 {
+  background: url("/assets/female.png");
   background-size: cover;
   background-position: center center; }
 
