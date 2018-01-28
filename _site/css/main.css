@@ -638,6 +638,36 @@ small {
   background-size: cover;
   background-position: center center; }
 
+.c-images__7 {
+  background: url("/assets/kids.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__8 {
+  background: url("/assets/parents.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__9 {
+  background: url("/assets/date.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__10 {
+  background: url("/assets/party.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__11 {
+  background: url("/assets/breakup.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__12 {
+  background: url("/assets/tbt.png");
+  background-size: cover;
+  background-position: center center; }
+
 .c-streaming__module {
   display: flex;
   flex-direction: row;
@@ -669,6 +699,22 @@ small {
 @media only screen and (min-width: 43.063em) {
   .c-welcome {
     display: none; } }
+
+.c-occasion__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 0.625rem; }
+
+.c-occasion__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+  width: calc(33% - .3rem); }
+  .c-occasion__card h3 {
+    color: #FFF; }
 
 .c-search {
   align-items: center;
