@@ -7,12 +7,29 @@
 
 .c-streaming__panel {
   width: calc(50% - .3125rem);
+
+  @media #{$medium-up} {
+    width: calc(33% - .75rem);
+  }
 }
 
 .c-streaming__item {
-  height: 12.68rem;
+  height: 13rem;
+
+  @media #{$medium-up} {
+    height: 20rem;
+  }
+
+  @media #{$large-up} {
+    height: 35rem;
+  }
 }
 
 .c-streaming__panel--large {
   display: none;
+
+  @media #{$medium-up} {
+    display: block;
+    width: calc(33% - .75rem);
+  }
 }

@@ -3,11 +3,11 @@
   width: 100%;
 
   @media #{$medium-up} {
-    padding: $spacing-large $spacing-xx-large;
+    padding: 0 $spacing-xx-large;
   }
 
   @media #{$large-up} {
-    padding: $spacing-xx-large $spacing-xxx-large;
+    padding: 0 $spacing-xx-large;
   }
 }
 
@@ -15,10 +15,10 @@
   padding: $spacing-large 0;
 
   @media #{$medium-up} {
-    padding: $spacing-large $spacing-xx-large;
+    padding: $spacing-large 0;
   }
 
   @media #{$large-up} {
-    padding: $spacing-xx-large $spacing-xxx-large;
+    padding: $spacing-large 0;
   }
 }

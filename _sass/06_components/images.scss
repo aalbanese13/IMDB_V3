@@ -38,10 +38,6 @@
 }
 
 .c-images__6 {
-  display: none;
-
-  @media #{$medium-up} {
-    background: url('/assets/this-is-us.png');
-    @include cover-center;
-  }
+  background: url('/assets/this-is-us.png');
+  @include cover-center;
 }
