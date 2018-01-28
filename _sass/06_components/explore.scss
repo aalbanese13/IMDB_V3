@@ -1,6 +1,6 @@
 .c-explore__item {
   height: 9rem;
-  width: calc(25% - .3rem);
+  width: calc(33% - .3rem);
 
   @media #{$medium-up} {
     height: 20rem;
@@ -17,4 +17,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  div:last-child {
+    display: none;
+
+    @media #{$medium-up} {
+      display: flex;
+    }
+  }
 }

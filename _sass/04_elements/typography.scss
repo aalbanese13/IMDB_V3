@@ -11,6 +11,14 @@ h1 {
   font-size: $font-size-heading-medium;
   font-weight: $font-weight-bold;
   line-height: $line-height-heading;
+
+  @media #{$medium-up} {
+    font-size: $font-size-heading-large;
+    }
+
+  @media #{$large-up} {
+    font-size: $font-size-heading-x-large;
+    }
 }
 
 h2 {
@@ -27,6 +35,10 @@ h3 {
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
+
+  @media #{$large-up} {
+    font-size: $font-size-heading-medium;
+  }
 }
 
 p {

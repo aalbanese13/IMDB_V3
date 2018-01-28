@@ -4,6 +4,11 @@
   justify-content: space-between;
 }
 
+.c-cards__subtitle {
+  max-width: 80%;
+  text-align: center;
+}
+
 .c-card {
   align-items: center;
   display: flex;
@@ -12,9 +17,4 @@
   h3 {
     color: $color-white;
   }
-}
-
-.c-cards__subtitle {
-  max-width: 80%;
-  text-align: center;
 }
