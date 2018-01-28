@@ -1,0 +1,21 @@
+.c-watch__primary {
+  height: 15rem;
+}
+
+.c-watch__secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: $spacing-x-small;
+  width: 100%;
+
+  div:last-child {
+    margin-right: 0;
+  }
+}
+
+.c-watch__item {
+  height: 5rem;
+  margin-right: $spacing-x-small;
+  width: 25%;
+}

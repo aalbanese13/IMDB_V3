@@ -668,6 +668,31 @@ small {
   background-size: cover;
   background-position: center center; }
 
+.c-images__17 {
+  background: url("/assets/breaking-bad.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__18 {
+  background: url("/assets/arrested-dev.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__19 {
+  background: url("/assets/the-office.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__20 {
+  background: url("/assets/always-sunny.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__21 {
+  background: url("/assets/parks-rec.png");
+  background-size: cover;
+  background-position: center center; }
+
 .c-flex__horizontal {
   display: flex;
   flex-direction: row;
@@ -683,6 +708,23 @@ small {
   justify-content: space-around; }
   .c-card h3 {
     color: #FFF; }
+
+.c-watch__primary {
+  height: 15rem; }
+
+.c-watch__secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.625rem;
+  width: 100%; }
+  .c-watch__secondary div:last-child {
+    margin-right: 0; }
+
+.c-watch__item {
+  height: 5rem;
+  margin-right: 0.625rem;
+  width: 25%; }
 
 .c-occasion__module {
   display: flex;
