@@ -466,6 +466,15 @@ small {
     .o-wrapper__module {
       padding: 2.2rem 0; } }
 
+body {
+  width: 100%;
+  background-color: #E7EFF4; }
+
+.wrapper1 {
+  max-width: 87em;
+  margin: 0 auto;
+  background-color: #FFF; }
+
 .c-explore__item {
   height: 9rem;
   width: calc(33% - .3rem); }
@@ -489,7 +498,7 @@ small {
         display: flex; } }
 
 .c-footer {
-  background: #e6e6e6;
+  background: #FBFBFB;
   border-top: 1px solid #C5C5C5;
   text-align: center;
   padding: 12rem 0 12rem 0; }

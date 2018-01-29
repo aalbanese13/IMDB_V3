@@ -22,3 +22,15 @@
     padding: $spacing-large 0;
   }
 }
+
+
+body {
+  width: 100%;
+  background-color: $color-off-white-blue;
+}
+
+.wrapper1 {
+  max-width: 87em;
+  margin: 0 auto;
+  background-color: $color-white;
+}
