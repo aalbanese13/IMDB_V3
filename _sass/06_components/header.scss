@@ -1,6 +1,4 @@
 .c-header__nav-bar {
-  padding: $spacing-small;
-  padding-bottom: 0;
 }
 
 .c-header__menu {
@@ -24,7 +22,6 @@
   background: url('/assets/top-bar-bg.png');
   background-position: cover;
   background-repeat: no-repeat;
-  height: 9rem;
 
   @media #{$medium-up} {
     background: url('/assets/i-tonya-new.png');
@@ -46,6 +43,7 @@
   display: block;
   text-align: center;
   width: 100%;
+  margin-top: $spacing-small;
 
   @media #{$medium-up} {
     display: flex;

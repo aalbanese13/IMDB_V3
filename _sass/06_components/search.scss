@@ -1,19 +1,10 @@
 .c-search {
-  align-items: center;
-  background-color: $color-white;
+  background-image: url('/SVG/search-icon.svg');
   border-radius: $border-radius-medium;
-  display: flex;
-  height: 2.4rem;
-  padding-left: $spacing-small;
-  width: 100%;
-}
-
-.c-search__term {
   border-style: none;
-  border-radius: $border-radius-medium;
-  font-size: $font-size-text-large;
-  padding-left: $spacing-small;
+  font-family: $font-family;
+  font-size: $font-size-text-medium;
+  height: 2.4rem;
+  padding-left: $spacing-x-small;
   width: 100%;
-  margin: 0;
-  height: 100%;
 }

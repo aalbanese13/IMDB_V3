@@ -1,16 +1,15 @@
 body {
-  width: 100%;
   background-color: $color-off-white-blue;
+  width: 100%;
 }
 
 .o-wrapper__max-width {
-  max-width: 87em;
-  margin: 0 auto;
   background-color: $color-white;
+  margin: 0 auto;
+  max-width: 87em;
 }
 
-.o-wrapper__content {
-  padding: 0 $spacing-small;
+.o-wrapper__outter {
   width: 100%;
 
   @media #{$medium-up} {
@@ -20,6 +19,10 @@ body {
   @media #{$large-up} {
     padding: 0 $spacing-xx-large;
   }
+}
+
+.o-wrapper__inner {
+  padding: 0 $spacing-small;
 }
 
 .o-wrapper__module {

@@ -1,7 +1,9 @@
 <header class="c-header">
-  <div class="c-header__nav-bar">
-    <img class="c-icons__logo" src="/assets/logo.png">
-    <img class="c-icons__logo--large" src="/assets/logo-large.png">
+  <div class="o-wrapper__module">
+  <div class="o-wrapper__inner">
+    <div class="c-icons__logo">
+      {% include SVG/logo_small.svg %}
+    </div>
     <div class="c-icons__menu">
       {% include SVG/menu.svg %}
     </div>
@@ -11,17 +13,11 @@
       <li><h3>People<h3></li>
       <li><h3>News<h3></li>
     </ul>
-  </div>
-  <div class="c-header__wrapper">
     <div class="c-header__content">
       <h2>The world’s most popular and authoritative source for movie, TV and celebrity content.
       </h2>
-      <div class="c-search">
-        <div class="c-icons__search">
-          {% include SVG/search-icon-blue.svg %}
-        </div>
-        <input type="text" class="c-search__term" placeholder="Search...">
-      </div>
-      </div>
+      <input type="text" class="c-search" placeholder="Search...">
     </div>
+  </div>
+</div>
 </header>
