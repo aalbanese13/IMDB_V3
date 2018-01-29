@@ -1,24 +1,21 @@
-.c-explore__item {
-  height: 9rem;
-  width: calc(33% - .3rem);
+.c-explore {
+  
+  li {
+    height: 12rem;
+    width: calc(33% - .3rem);
 
-  @media #{$medium-up} {
-    height: 20rem;
-    width: calc(25% - .75rem);
+    @media #{$medium-up} {
+      height: 20rem;
+      width: calc(25% - .75rem);
+    }
+
+    @media #{$large-up} {
+      height: 32rem;
+      width: calc(25% - .75rem);
+    }
   }
 
-  @media #{$large-up} {
-    height: 28rem;
-    width: calc(25% - .75rem);
-  }
-}
-
-.c-explore__module {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  div:last-child {
+  li:last-child {
     display: none;
 
     @media #{$medium-up} {
