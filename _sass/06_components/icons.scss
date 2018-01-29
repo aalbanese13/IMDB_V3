@@ -13,3 +13,11 @@
 .c-icons__search {
   line-height: 0;
 }
+
+.c-icons__play-icon:hover {
+  cursor: pointer;
+
+  path {
+    fill: $color-secondary-hover;
+  }
+}
