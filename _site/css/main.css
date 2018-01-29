@@ -700,6 +700,16 @@ body {
   background-size: cover;
   background-position: center center; }
 
+.c-images__23 {
+  background: url("/assets/showman.png");
+  background-size: cover;
+  background-position: center center; }
+
+.c-images__24 {
+  background: url("/assets/fantastic.png");
+  background-size: cover;
+  background-position: center center; }
+
 .c-watch {
   width: 100%; }
   @media only screen and (min-width: 43.063em) {
@@ -781,6 +791,10 @@ body {
     border: 2px solid #01508D;
     list-style-type: none;
     width: 100%; }
+  .c-module__card--large li:first-child {
+    border: 0; }
+    .c-module__card--large li:first-child h3 {
+      padding: 0; }
   .c-module__card--large h3 {
     display: inline-block;
     padding-left: 0.625rem; }
@@ -913,7 +927,16 @@ body {
   padding: 1.3rem; }
 
 .c-box-office__image {
-  height: 12rem; }
+  height: 15rem; }
+  @media only screen and (min-width: 75.063em) {
+    .c-box-office__image {
+      height: 18rem; } }
+
+.c-box-office ul {
+  width: 100%; }
+  @media only screen and (min-width: 43.063em) {
+    .c-box-office ul {
+      width: calc(33% - .75rem); } }
 
 @media only screen and (min-width: 43.063em) {
   .c-welcome {

@@ -3,5 +3,20 @@
 }
 
 .c-box-office__image {
-  height: 12rem;
+  height: 15rem;
+
+  @media #{$large-up} {
+    height: 18rem;
+  }
+}
+
+.c-box-office {
+
+  ul {
+    width: 100%;
+
+    @media #{$medium-up} {
+      width: calc(33% - .75rem);
+    }
+  }
 }

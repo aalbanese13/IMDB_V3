@@ -33,6 +33,14 @@
     width: 100%;
   }
 
+  li:first-child {
+    border: 0;
+
+    h3 {
+      padding: 0;
+    }
+  }
+
   h3 {
     display: inline-block;
     padding-left: $spacing-x-small;
