@@ -3,18 +3,3 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
-.c-cards__subtitle {
-  max-width: 80%;
-  text-align: center;
-}
-
-.c-card {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-
-  h3 {
-    color: $color-white;
-  }
-}

@@ -1,30 +1,24 @@
-.c-occasion__module {
-  display: flex;
-  flex-direction: row;
+.c-occasion {
   flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.c-occasion__card {
-  align-items: center;
-  display: flex;
-  height: 6rem;
-  justify-content: space-around;
-  margin-top: $spacing-x-small;
-  width: calc(33% - .3rem);
+  li {
+    height: 7rem;
+    width: calc(33% - .3rem);
 
-  h3 {
-    color: $color-white;
+    @media #{$medium-up} {
+      width: calc(16% - .65rem);
+    }
+
+    @media #{$large-up} {
+      height: 12rem;
+    }
   }
 
-  @media #{$medium-up} {
-    height: 6rem;
-    margin-top: $spacing-small;
-    width: calc(16% - .75rem);
-  }
+  li:nth-child(n+4) {
+    margin-top: $spacing-x-small;
 
-  @media #{$large-up} {
-    height: 9rem;
-    margin-top: $spacing-medium;
+    @media #{$medium-up} {
+      margin: 0;
+    }
   }
 }

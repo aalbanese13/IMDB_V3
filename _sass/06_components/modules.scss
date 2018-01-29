@@ -13,6 +13,18 @@
    }
 }
 
+.c-module__card {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  h3 {
+    color: $color-white;
+    max-width: 80%;
+    text-align: center;
+  }
+}
+
 .c-module__mobile-off {
   display: none;
 
