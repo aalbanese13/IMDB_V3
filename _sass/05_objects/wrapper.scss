@@ -23,6 +23,10 @@ body {
 
 .o-wrapper__inner {
   padding: 0 $spacing-small;
+
+  @media #{$medium-up} {
+    padding: 0 $spacing-medium;
+  }
 }
 
 .o-wrapper__module {

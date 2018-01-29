@@ -27,21 +27,12 @@
 
   @media #{$large-up} {
     background: url('/assets/i-tonya-new.png');
-    height: 40rem;
   }
 }
 
 .c-header__content {
   margin-top: $spacing-small;
   width: 100%;
-
-  @media #{$medium-up} {
-    display: flex;
-    flex-direction: column;
-    margin: 5rem auto;
-    max-width: 50rem;
-    text-align: center;
-  }
 
   h2 {
     display: none;
@@ -51,5 +42,17 @@
       display: block;
       font-size: $font-size-heading-medium;
     }
+  }
+
+  @media #{$medium-up} {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  @media #{$large-up} {
+    margin: 10rem auto;
   }
 }

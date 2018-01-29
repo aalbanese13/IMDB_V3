@@ -480,6 +480,9 @@ body {
 
 .o-wrapper__inner {
   padding: 0 1.3rem; }
+  @media only screen and (min-width: 43.063em) {
+    .o-wrapper__inner {
+      padding: 0 1.5rem; } }
 
 .o-wrapper__module {
   padding: 2.2rem 0; }
@@ -539,19 +542,11 @@ body {
       background: url("/assets/i-tonya-new.png"); } }
   @media only screen and (min-width: 75.063em) {
     .c-header {
-      background: url("/assets/i-tonya-new.png");
-      height: 40rem; } }
+      background: url("/assets/i-tonya-new.png"); } }
 
 .c-header__content {
   margin-top: 1.3rem;
   width: 100%; }
-  @media only screen and (min-width: 43.063em) {
-    .c-header__content {
-      display: flex;
-      flex-direction: column;
-      margin: 5rem auto;
-      max-width: 50rem;
-      text-align: center; } }
   .c-header__content h2 {
     display: none; }
     @media only screen and (min-width: 43.063em) {
@@ -559,6 +554,16 @@ body {
         color: #FFF;
         display: block;
         font-size: 1.5rem; } }
+  @media only screen and (min-width: 43.063em) {
+    .c-header__content {
+      display: flex;
+      flex-direction: column;
+      margin: 5rem auto;
+      max-width: 50rem;
+      text-align: center; } }
+  @media only screen and (min-width: 75.063em) {
+    .c-header__content {
+      margin: 10rem auto; } }
 
 .c-icons__logo {
   display: inline-block; }
