@@ -1,0 +1,14 @@
+.c-module__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c-module__panel {
+  width: calc(50% - .3125rem);
+
+  @media #{$medium-up} {
+    width: calc(33% - .75rem);
+  }
+}

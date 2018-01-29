@@ -1,26 +1,11 @@
-.c-streaming__module {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.c-streaming__panel {
-  width: calc(50% - .3125rem);
-
-  @media #{$medium-up} {
-    width: calc(33% - .75rem);
-  }
-}
-
 .c-streaming__item {
-  height: 13rem;
+  height: 20rem;
 
   @media #{$medium-up} {
-    height: 20rem;
+    height: 28rem;
   }
 
   @media #{$large-up} {
-    height: 35rem;
+    height: 40rem;
   }
 }

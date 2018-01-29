@@ -779,6 +779,24 @@ body {
       height: 9rem;
       margin-top: 1.5rem; } }
 
+.c-module__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+.c-module__panel {
+  width: calc(50% - .3125rem); }
+  @media only screen and (min-width: 43.063em) {
+    .c-module__panel {
+      width: calc(33% - .75rem); } }
+
+.c-module__mobile-off {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-module__mobile-off {
+      display: block; } }
+
 .c-released__trailer {
   align-items: center;
   display: flex;
@@ -838,26 +856,14 @@ body {
   padding-left: 0.625rem;
   width: 100%; }
 
-.c-streaming__module {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%; }
-
-.c-streaming__panel {
-  width: calc(50% - .3125rem); }
-  @media only screen and (min-width: 43.063em) {
-    .c-streaming__panel {
-      width: calc(33% - .75rem); } }
-
 .c-streaming__item {
-  height: 13rem; }
+  height: 20rem; }
   @media only screen and (min-width: 43.063em) {
     .c-streaming__item {
-      height: 20rem; } }
+      height: 28rem; } }
   @media only screen and (min-width: 75.063em) {
     .c-streaming__item {
-      height: 35rem; } }
+      height: 40rem; } }
 
 .c-button {
   border: 1px solid #E19F08;
