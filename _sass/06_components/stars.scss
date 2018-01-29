@@ -1,0 +1,23 @@
+.c-stars {
+  display: inline-block;
+
+  polygon {
+    fill: $color-secondary;
+  }
+
+  polygon:hover {
+    fill: $color-secondary-hover;
+  }
+}
+
+.c-stars:hover {
+  cursor: pointer;
+}
+
+.c-stars--empty {
+  display: inline-block;
+
+  polygon {
+    fill: $color-secondary-hover;
+  }
+}

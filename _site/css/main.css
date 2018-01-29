@@ -695,6 +695,11 @@ body {
   background-size: cover;
   background-position: center center; }
 
+.c-images__22 {
+  background: url("/assets/lady-bird.png");
+  background-size: cover;
+  background-position: center center; }
+
 .c-watch {
   width: 100%; }
   @media only screen and (min-width: 43.063em) {
@@ -770,6 +775,20 @@ body {
     max-width: 80%;
     text-align: center; }
 
+.c-module__card--large {
+  width: 100%; }
+  .c-module__card--large li {
+    border: 2px solid #01508D;
+    list-style-type: none;
+    width: 100%; }
+  .c-module__card--large h3 {
+    display: inline-block;
+    padding-left: 0.625rem; }
+  .c-module__card--large h2,
+  .c-module__card--large h5,
+  .c-module__card--large p {
+    margin: 0.625rem 0; }
+
 .c-module__mobile-off {
   display: none; }
   @media only screen and (min-width: 43.063em) {
@@ -835,6 +854,21 @@ body {
   padding-left: 0.625rem;
   width: 100%; }
 
+.c-stars {
+  display: inline-block; }
+  .c-stars polygon {
+    fill: #E19F08; }
+  .c-stars polygon:hover {
+    fill: #b07c06; }
+
+.c-stars:hover {
+  cursor: pointer; }
+
+.c-stars--empty {
+  display: inline-block; }
+  .c-stars--empty polygon {
+    fill: #b07c06; }
+
 .c-streaming__item {
   height: 20rem; }
   @media only screen and (min-width: 43.063em) {
@@ -845,7 +879,7 @@ body {
       height: 40rem; } }
 
 .c-button {
-  border: 1px solid #E19F08;
+  border: 2px solid #E19F08;
   border-radius: 3px;
   height: 2.6rem;
   margin-top: 1.3rem;
@@ -855,12 +889,31 @@ body {
       display: none; } }
 
 .c-button:hover {
-  background-color: #E19F08;
+  background-color: #b07c06;
   border-style: none;
   color: #FFF;
   cursor: pointer; }
   .c-button:hover h3 {
     color: #FFF; }
+
+.c-button__icon-text {
+  align-items: center;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 1.3rem; }
+  .c-button__icon-text path {
+    fill: #E19F08; }
+
+.c-button__icon-text:hover {
+  cursor: pointer; }
+  .c-button__icon-text:hover path {
+    fill: #b07c06; }
+
+.c-box-office__content {
+  padding: 1.3rem; }
+
+.c-box-office__image {
+  height: 12rem; }
 
 @media only screen and (min-width: 43.063em) {
   .c-welcome {

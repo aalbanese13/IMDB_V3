@@ -24,6 +24,27 @@
   }
 }
 
+.c-module__card--large {
+  width: 100%;
+
+  li {
+    border: 2px solid $color-primary;
+    list-style-type: none;
+    width: 100%;
+  }
+
+  h3 {
+    display: inline-block;
+    padding-left: $spacing-x-small;
+  }
+
+  h2,
+  h5,
+  p, {
+    margin: $spacing-x-small 0;
+  }
+}
+
 .c-module__mobile-off {
   display: none;
 

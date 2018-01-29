@@ -1,5 +1,5 @@
 .c-button {
-  border: 1px solid $color-secondary;
+  border: 2px solid $color-secondary;
   border-radius: 3px;
   height: 2.6rem;
   margin-top: $spacing-small;
@@ -11,12 +11,31 @@
 }
 
 .c-button:hover {
-  background-color: $color-secondary;
+  background-color: $color-secondary-hover;
   border-style: none;
   color: $color-white;
   cursor: pointer;
 
   h3 {
     color: $color-white;
+  }
+}
+
+.c-button__icon-text {
+  align-items: center;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: $spacing-small;
+
+  path {
+    fill: $color-secondary;
+  }
+}
+
+.c-button__icon-text:hover {
+  cursor: pointer;
+
+  path {
+    fill: $color-secondary-hover;
   }
 }
