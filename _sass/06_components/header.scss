@@ -1,12 +1,10 @@
-.c-header__nav-bar {
-}
-
 .c-header__menu {
   display: none;
 
   @media #{$medium-up} {
     display: inline-flex;
     float: right;
+    margin: 0;
 
     h3 {
       color: $color-white;
@@ -25,30 +23,24 @@
 
   @media #{$medium-up} {
     background: url('/assets/i-tonya-new.png');
-    height: 30rem;
   }
 
   @media #{$large-up} {
     background: url('/assets/i-tonya-new.png');
     height: 40rem;
   }
-
-  @media #{$x-large-up} {
-    background: url('/assets/i-tonya-massive.png');
-    height: 50rem;
-  }
 }
 
 .c-header__content {
-  display: block;
-  text-align: center;
-  width: 100%;
   margin-top: $spacing-small;
+  width: 100%;
 
   @media #{$medium-up} {
     display: flex;
     flex-direction: column;
+    margin: 5rem auto;
     max-width: 50rem;
+    text-align: center;
   }
 
   h2 {
@@ -59,23 +51,5 @@
       display: block;
       font-size: $font-size-heading-medium;
     }
-  }
-}
-
-.c-header__wrapper {
-  padding: $spacing-small;
-
-  @media #{$medium-up} {
-    display: flex;
-    justify-content: space-around;
-    padding-top: $spacing-xx-large;
-  }
-
-  @media #{$large-up} {
-    padding-top: $spacing-xxx-large;
-  }
-
-  @media #{$x-large-up} {
-    padding-top: 20rem;
   }
 }

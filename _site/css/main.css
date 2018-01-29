@@ -401,6 +401,10 @@ a {
   color: #01508D;
   text-decoration: underline; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
 .e-no-bullet {
   list-style-type: none; }
 
@@ -519,7 +523,8 @@ body {
   @media only screen and (min-width: 43.063em) {
     .c-header__menu {
       display: inline-flex;
-      float: right; }
+      float: right;
+      margin: 0; }
       .c-header__menu h3 {
         color: #FFF; }
       .c-header__menu li {
@@ -531,27 +536,22 @@ body {
   background-repeat: no-repeat; }
   @media only screen and (min-width: 43.063em) {
     .c-header {
-      background: url("/assets/i-tonya-new.png");
-      height: 30rem; } }
+      background: url("/assets/i-tonya-new.png"); } }
   @media only screen and (min-width: 75.063em) {
     .c-header {
       background: url("/assets/i-tonya-new.png");
       height: 40rem; } }
-  @media only screen and (min-width: 110.063em) {
-    .c-header {
-      background: url("/assets/i-tonya-massive.png");
-      height: 50rem; } }
 
 .c-header__content {
-  display: block;
-  text-align: center;
-  width: 100%;
-  margin-top: 1.3rem; }
+  margin-top: 1.3rem;
+  width: 100%; }
   @media only screen and (min-width: 43.063em) {
     .c-header__content {
       display: flex;
       flex-direction: column;
-      max-width: 50rem; } }
+      margin: 5rem auto;
+      max-width: 50rem;
+      text-align: center; } }
   .c-header__content h2 {
     display: none; }
     @media only screen and (min-width: 43.063em) {
@@ -560,31 +560,8 @@ body {
         display: block;
         font-size: 1.5rem; } }
 
-.c-header__wrapper {
-  padding: 1.3rem; }
-  @media only screen and (min-width: 43.063em) {
-    .c-header__wrapper {
-      display: flex;
-      justify-content: space-around;
-      padding-top: 7.5rem; } }
-  @media only screen and (min-width: 75.063em) {
-    .c-header__wrapper {
-      padding-top: 12rem; } }
-  @media only screen and (min-width: 110.063em) {
-    .c-header__wrapper {
-      padding-top: 20rem; } }
-
 .c-icons__logo {
   display: inline-block; }
-  @media only screen and (min-width: 43.063em) {
-    .c-icons__logo {
-      display: none; } }
-
-.c-icons__logo--large {
-  display: none; }
-  @media only screen and (min-width: 43.063em) {
-    .c-icons__logo--large {
-      display: inline-block; } }
 
 .c-icons__menu {
   float: right; }

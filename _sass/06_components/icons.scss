@@ -1,17 +1,5 @@
 .c-icons__logo {
   display: inline-block;
-
-  @media #{$medium-up} {
-    display: none;
-  }
-}
-
-.c-icons__logo--large {
-  display: none;
-
-  @media #{$medium-up} {
-    display: inline-block;
-  }
 }
 
 .c-icons__menu {
