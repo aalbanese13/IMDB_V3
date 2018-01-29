@@ -1,49 +1,47 @@
-.c-watch__module {
+.c-watch {
   width: 100%;
 
   @media #{$medium-up} {
     display: flex;
+    justify-content: space-between;
   }
 }
 
 .c-watch__primary {
-  height: 15rem;
+  height: 18rem;
 
   @media #{$medium-up} {
-    height: 15rem;
-    width: 50%;
+    width: calc(50% - .75rem);
+  }
+
+  @media #{$large-up} {
+    height: 25rem;
+    width: calc(50% - .75rem);
   }
 }
 
 .c-watch__secondary {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: $spacing-x-small;
-  width: 100%;
-
-  div:last-child {
-    margin-right: 0;
-  }
+  flex-wrap: wrap;
 
   @media #{$medium-up} {
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 15rem;
-    margin-left: $spacing-small;
-    margin-top: 0;
-    width: 50%;
+    height: 18rem;
+    width: calc(50% - .75rem);
   }
-}
 
-.c-watch__item {
-  height: 5rem;
-  margin-right: $spacing-x-small;
-  width: 25%;
+  @media #{$large-up} {
+    height: 25rem;
+    width: calc(50% - .75rem);
+  }
 
-  @media #{$medium-up} {
-    height: calc(50% - .75rem);
-    margin-right: 0;
-    width: calc(50% - 1.5rem);
+  li {
+    height: 5rem;
+    margin-top: $spacing-x-small;
+    width: calc(25% - .325rem);
+
+    @media #{$medium-up} {
+      height: calc(50% - .75rem);
+      margin-top: 0;
+      width: calc(50% - .75rem);
+    }
   }
 }
