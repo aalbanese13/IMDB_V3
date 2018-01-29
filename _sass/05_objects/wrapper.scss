@@ -1,3 +1,14 @@
+body {
+  width: 100%;
+  background-color: $color-off-white-blue;
+}
+
+.o-wrapper__max-width {
+  max-width: 87em;
+  margin: 0 auto;
+  background-color: $color-white;
+}
+
 .o-wrapper__content {
   padding: 0 $spacing-small;
   width: 100%;
@@ -21,16 +32,4 @@
   @media #{$large-up} {
     padding: $spacing-large 0;
   }
-}
-
-
-body {
-  width: 100%;
-  background-color: $color-off-white-blue;
-}
-
-.wrapper1 {
-  max-width: 87em;
-  margin: 0 auto;
-  background-color: $color-white;
 }

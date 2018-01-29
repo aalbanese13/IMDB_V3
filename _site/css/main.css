@@ -447,6 +447,15 @@ small {
   color: #C5C5C5;
   font-size: 0.75rem; }
 
+body {
+  width: 100%;
+  background-color: #E7EFF4; }
+
+.o-wrapper__max-width {
+  max-width: 87em;
+  margin: 0 auto;
+  background-color: #FFF; }
+
 .o-wrapper__content {
   padding: 0 1.3rem;
   width: 100%; }
@@ -465,15 +474,6 @@ small {
   @media only screen and (min-width: 75.063em) {
     .o-wrapper__module {
       padding: 2.2rem 0; } }
-
-body {
-  width: 100%;
-  background-color: #E7EFF4; }
-
-.wrapper1 {
-  max-width: 87em;
-  margin: 0 auto;
-  background-color: #FFF; }
 
 .c-explore__item {
   height: 9rem;
