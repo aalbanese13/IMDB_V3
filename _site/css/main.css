@@ -784,11 +784,10 @@ body {
   display: flex;
   height: 15rem;
   justify-content: space-around;
-  position: relative;
-  width: 100%; }
+  position: relative; }
   @media only screen and (min-width: 43.063em) {
     .c-released__trailer {
-      height: 15rem;
+      height: 18rem;
       width: calc(50% - .75rem); } }
   @media only screen and (min-width: 75.063em) {
     .c-released__trailer {
@@ -816,18 +815,21 @@ body {
   display: none; }
   @media only screen and (min-width: 43.063em) {
     .c-released__metadata {
-      bottom: 2.2rem;
-      color: #FFF;
-      display: block;
-      left: 5.3rem;
-      position: absolute; } }
+      bottom: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      left: 1.3rem;
+      position: absolute; }
+      .c-released__metadata h2,
+      .c-released__metadata h3 {
+        color: #FFF;
+        margin: 0; } }
 
 @media only screen and (min-width: 43.063em) {
   .c-released__heading {
     display: none; } }
 
 .c-search {
-  background-image: url("/SVG/search-icon.svg");
   border-radius: 5px;
   border-style: none;
   font-family: "Ubuntu", sans-serif;

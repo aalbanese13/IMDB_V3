@@ -4,10 +4,9 @@
   height: 15rem;
   justify-content: space-around;
   position: relative;
-  width: 100%;
 
   @media #{$medium-up} {
-    height: 15rem;
+    height: 18rem;
     width: calc(50% - .75rem);
   }
 
@@ -46,11 +45,17 @@
   display: none;
 
   @media #{$medium-up} {
-    bottom: $spacing-large;
-    color: $color-white;
-    display: block;
-    left: $spacing-x-large;
+    bottom: $spacing-small;
+    display: flex;
+    flex-direction: column;
+    left: $spacing-small;
     position: absolute;
+
+    h2,
+    h3 {
+      color: $color-white;
+      margin: 0;
+    }
   }
 }
 
