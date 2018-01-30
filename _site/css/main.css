@@ -676,22 +676,22 @@ body {
   background-position: center center; }
 
 .c-images__18 {
-  background: url("/assets/arrested-dev.png");
+  background: url("/assets/arrested.jpg");
   background-size: cover;
   background-position: center center; }
 
 .c-images__19 {
-  background: url("/assets/the-office.png");
+  background: url("/assets/office2.jpg");
   background-size: cover;
   background-position: center center; }
 
 .c-images__20 {
-  background: url("/assets/always-sunny.png");
+  background: url("/assets/sunny2.jpg");
   background-size: cover;
   background-position: center center; }
 
 .c-images__21 {
-  background: url("/assets/parks-rec.png");
+  background: url("/assets/parks2.jpg");
   background-size: cover;
   background-position: center center; }
 
@@ -743,9 +743,12 @@ body {
     width: calc(25% - .325rem); }
     @media only screen and (min-width: 43.063em) {
       .c-watch__secondary li {
-        height: calc(50% - .75rem);
+        height: auto;
         margin-top: 0;
-        width: calc(50% - .75rem); } }
+        margin-bottom: 1rem;
+        width: calc(50% - .75rem); }
+        .c-watch__secondary li:nth-of-type(3), .c-watch__secondary li:nth-of-type(4) {
+          margin-bottom: 0; } }
 
 .c-occasion {
   flex-wrap: wrap;
@@ -865,8 +868,9 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1rem;
   height: 2.4rem;
-  padding-left: 0.625rem;
-  width: 100%; }
+  padding-left: 2.2rem;
+  width: 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="none" fill-rule="evenodd" stroke="#01508D" stroke-width="2" transform="matrix(-1 0 0 1 19 1)" stroke-linecap="round" stroke-linejoin="round"><path d="M12.80327 2.1967C15.7322 5.12563 15.7322 9.87437 12.80327 12.8033 9.87434 15.73223 5.1256 15.73223 2.19667 12.8033-.73226 9.87437-.73226 5.12563 2.19667 2.1967 5.1256-.73223 9.87434-.73223 12.80327 2.1967M18 18L12.8 12.8"/></g></svg>'); }
 
 .c-stars {
   display: inline-block; }
