@@ -398,8 +398,11 @@ template {
   display: none; }
 
 a {
-  color: #424342;
+  color: #b07c06;
   text-decoration: underline; }
+  a:hover {
+    color: #E19F08;
+    transition: 0.4s; }
 
 ul {
   margin: 0;
@@ -456,6 +459,11 @@ h3 {
     h3 {
       font-size: 1.5rem; } }
 
+h4 {
+  color: #424342;
+  font-size: 0.9rem;
+  margin: 0; }
+
 h5 {
   color: #969191;
   font-size: 0.9rem;
@@ -464,9 +472,6 @@ h5 {
   @media only screen and (min-width: 43.063em) {
     h5 {
       font-size: 1rem; } }
-
-h4 {
-  color: #424342; }
 
 p {
   color: #424342;
@@ -954,9 +959,10 @@ body {
       align-items: center;
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      margin: 1.3rem 0; }
       .c-module__supplement a {
-        margin-left: 1.1rem; } }
+        margin-left: 0.625rem; } }
 
 .c-module__line {
   color: #E19F08; }

@@ -1,4 +1,9 @@
 a {
-  color: $color-primary;
+  color: $color-accent-hover;
   text-decoration: underline;
+
+  &:hover {
+    color: $color-accent;
+    transition: $duration-slowly;
+  }
 }

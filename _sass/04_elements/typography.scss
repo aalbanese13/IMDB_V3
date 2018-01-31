@@ -48,6 +48,12 @@ h3 {
     }
 }
 
+h4 {
+  color: $color-primary;
+  font-size: $font-size-heading-x-small;
+  margin: 0;
+}
+
 h5 {
   color: $color-secondary;
   font-size: $font-size-heading-x-small;
@@ -57,10 +63,6 @@ h5 {
   @media #{$medium-up} {
     font-size: 1rem;
     }
-}
-
-h4 {
-  color: $color-primary;
 }
 
 p {

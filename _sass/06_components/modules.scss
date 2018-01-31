@@ -80,9 +80,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: $spacing-small 0;
 
     a {
-      margin-left: $spacing-x-small;
+      margin-left: $spacing-xx-small;
     }
   }
 }
