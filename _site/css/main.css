@@ -481,16 +481,16 @@ body {
   padding: 0 1.3rem; }
   @media only screen and (min-width: 43.063em) {
     .o-wrapper__inner {
-      padding: 0 1.5rem; } }
+      padding: 0 1.3rem; } }
 
 .o-wrapper__module {
-  padding: 1.5rem 0; }
+  padding: 1.1rem 0; }
   @media only screen and (min-width: 43.063em) {
     .o-wrapper__module {
-      padding: 1.1rem 0; } }
+      padding: 1.5rem 0; } }
   @media only screen and (min-width: 75.063em) {
     .o-wrapper__module {
-      padding: 1.1rem 0; } }
+      padding: 1.5rem 0; } }
 
 .c-explore {
   width: 100%; }
@@ -527,7 +527,7 @@ body {
       .c-header__menu h3 {
         color: #FFF; }
       .c-header__menu li {
-        padding-left: 1.1rem; } }
+        padding-left: 1.5rem; } }
 
 .c-header {
   background: url("/assets/top-bar-bg.png");
@@ -541,7 +541,7 @@ body {
       background: url("/assets/i-tonya-new.png"); } }
 
 .c-header__content {
-  margin-top: 1.3rem;
+  margin-top: 1.1rem;
   width: 100%; }
   .c-header__content h2 {
     display: none; }
@@ -849,10 +849,10 @@ body {
   display: none; }
   @media only screen and (min-width: 43.063em) {
     .c-released__metadata {
-      bottom: 1.3rem;
+      bottom: 1.1rem;
       display: flex;
       flex-direction: column;
-      left: 1.3rem;
+      left: 1.1rem;
       position: absolute; }
       .c-released__metadata h2,
       .c-released__metadata h3 {
@@ -907,7 +907,7 @@ body {
   margin-top: 0.625rem;
   margin-bottom: 0; }
 .c-streaming h2 {
-  margin-top: 1.3rem; }
+  margin-top: 1.1rem; }
 .c-streaming h5 {
   margin-top: 0; }
 
@@ -915,7 +915,7 @@ body {
   border: 2px solid #E19F08;
   border-radius: 3px;
   height: 2.6rem;
-  margin-top: 1.3rem;
+  margin-top: 1.1rem;
   width: 100%; }
   @media only screen and (min-width: 43.063em) {
     .c-button {
@@ -933,7 +933,7 @@ body {
   align-items: center;
   display: flex;
   margin-bottom: 0;
-  margin-top: 1.3rem; }
+  margin-top: 1.1rem; }
   .c-button__icon-text path {
     fill: #E19F08; }
 
@@ -943,7 +943,7 @@ body {
     fill: #b07c06; }
 
 .c-box-office__content {
-  padding: 1.3rem; }
+  padding: 1.1rem; }
 
 .c-box-office__image {
   height: 15rem; }

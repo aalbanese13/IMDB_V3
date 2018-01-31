@@ -22,7 +22,7 @@ body {
 }
 
 .o-wrapper__inner {
-  padding: 0 $spacing-small;
+  padding: 0 $spacing-medium;
 
   @media #{$medium-up} {
     padding: 0 $spacing-medium;
@@ -30,7 +30,7 @@ body {
 }
 
 .o-wrapper__module {
-  padding: $spacing-medium 0;
+  padding: $spacing-small 0;
 
   @media #{$medium-up} {
     padding: $spacing-large 0;
