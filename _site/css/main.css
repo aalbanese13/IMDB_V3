@@ -608,66 +608,131 @@ body {
   background: url("/assets/maisel_new.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__4:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/maisel_new.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__5 {
   background: url("/assets/crown_new.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__5:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown_new.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__6 {
   background: url("/assets/us_new.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__6:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/us_new.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__7 {
   background: url("/assets/kids.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__7:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/kids.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__8 {
   background: url("/assets/parents.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__8:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parents.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__9 {
   background: url("/assets/date.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__9:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/date.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__10 {
   background: url("/assets/party.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__10:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/party.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__11 {
   background: url("/assets/breakup.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__11:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/breakup.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__12 {
   background: url("/assets/tbt.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__12:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/tbt.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__13 {
   background: url("/assets/screwball.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__13:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/screwball.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__14 {
   background: url("/assets/french.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__14:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/french.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__15 {
   background: url("/assets/film.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__15:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/film.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__16 {
   background: url("/assets/female.png");
   background-size: cover;
   background-position: center center; }
+  .c-images__16:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/female.png");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__17 {
   background: url("/assets/breaking-bad.png");
@@ -678,21 +743,41 @@ body {
   background: url("/assets/arrested.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__18:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/arrested.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__19 {
   background: url("/assets/office2.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__19:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office2.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__20 {
   background: url("/assets/sunny2.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__20:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/sunny2.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__21 {
   background: url("/assets/parks2.jpg");
   background-size: cover;
   background-position: center center; }
+  .c-images__21:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parks2.jpg");
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer; }
 
 .c-images__22 {
   background: url("/assets/lady-bird.png");
@@ -782,6 +867,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around; }
+  .c-module__card:hover {
+    cursor: pointer; }
   .c-module__card h3 {
     color: #FFF;
     max-width: 80%;

@@ -17,6 +17,10 @@
   display: flex;
   justify-content: space-around;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   h3 {
     color: $color-white;
     max-width: 80%;

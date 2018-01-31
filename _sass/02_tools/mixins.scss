@@ -14,3 +14,7 @@
   background-size: cover;
   background-position: center center;
 }
+
+@mixin image-hover {
+  cursor: pointer;
+}
