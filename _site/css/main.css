@@ -1118,8 +1118,8 @@ body {
     transition: 0.4s; }
 
 .c-footer {
-  padding: 1.5rem 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/top-bar.png"); }
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/top-bar.png");
+  padding: 1.5rem 0; }
   .c-footer h3,
   .c-footer p {
     color: #FFF;
@@ -1129,11 +1129,10 @@ body {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  display: inline-flex;
-  align-items: center; }
+  align-items: center;
+  display: inline-flex; }
   .c-footer__social li {
-    margin-left: 0.625rem;
-    line-height: 0; }
+    margin-left: 0.625rem; }
     .c-footer__social li:first-child {
       margin: 0; }
   .c-footer__social path,
