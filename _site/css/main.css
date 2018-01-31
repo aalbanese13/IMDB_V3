@@ -408,9 +408,6 @@ ul {
   margin: 0;
   padding: 0; }
 
-.e-no-bullet {
-  list-style-type: none; }
-
 [type="text"] {
   border: 0;
   border-radius: 5px;
@@ -1009,10 +1006,24 @@ body {
       bottom: 1.3rem;
       display: flex;
       flex-direction: column;
-      left: 1.3rem;
+      left: 0;
       position: absolute; }
       .c-released__metadata h2,
       .c-released__metadata h3 {
+        color: #FFF;
+        margin: 0; } }
+
+.c-released__metadata--right {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-released__metadata--right {
+      bottom: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      right: 0;
+      position: absolute; }
+      .c-released__metadata--right h2,
+      .c-released__metadata--right h3 {
         color: #FFF;
         margin: 0; } }
 

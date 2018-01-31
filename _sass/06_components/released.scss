@@ -48,7 +48,25 @@
     bottom: $spacing-small;
     display: flex;
     flex-direction: column;
-    left: $spacing-small;
+    left: 0;
+    position: absolute;
+
+    h2,
+    h3 {
+      color: $color-white;
+      margin: 0;
+    }
+  }
+}
+
+.c-released__metadata--right {
+  display: none;
+
+  @media #{$medium-up} {
+    bottom: $spacing-small;
+    display: flex;
+    flex-direction: column;
+    right: 0;
     position: absolute;
 
     h2,
