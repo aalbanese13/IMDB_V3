@@ -1,10 +1,12 @@
 .c-search {
+  background-image: url('/assets/search-icon2.svg');
+  background-position: $spacing-x-small 50%;
+  background-repeat: no-repeat;
   border-radius: $border-radius-medium;
   border-style: none;
   font-family: $font-family;
   font-size: $font-size-text-medium;
   height: 2.4rem;
-  padding-left: $spacing-large;
+  padding-left: 2.5rem;
   width: 100%;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="none" fill-rule="evenodd" stroke="#01508D" stroke-width="2" transform="matrix(-1 0 0 1 19 1)" stroke-linecap="round" stroke-linejoin="round"><path d="M12.80327 2.1967C15.7322 5.12563 15.7322 9.87437 12.80327 12.8033 9.87434 15.73223 5.1256 15.73223 2.19667 12.8033-.73226 9.87437-.73226 5.12563 2.19667 2.1967 5.1256-.73223 9.87434-.73223 12.80327 2.1967M18 18L12.8 12.8"/></g></svg>');
 }
