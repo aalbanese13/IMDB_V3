@@ -9,11 +9,11 @@ body {
   max-width: 87em;
 }
 
-.o-wrapper__outter {
-  width: 100%;
+.o-wrapper__inner {
+  padding: 0 $spacing-small;
 
   @media #{$medium-up} {
-    padding: 0 $spacing-xx-large;
+    padding: 0 $spacing-x-large;
   }
 
   @media #{$large-up} {
@@ -21,19 +21,11 @@ body {
   }
 }
 
-.o-wrapper__inner {
-  padding: 0 $spacing-medium;
-
-  @media #{$medium-up} {
-    padding: 0 $spacing-medium;
-  }
-}
-
 .o-wrapper__module {
-  padding: $spacing-small 0;
+  padding: $spacing-x-small 0;
 
   @media #{$medium-up} {
-    padding: $spacing-large 0;
+    padding: $spacing-medium 0;
   }
 
   @media #{$large-up} {
