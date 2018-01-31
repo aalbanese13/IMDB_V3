@@ -27,7 +27,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  background-color: #FFFFFF;
+  background-color: #FFF;
   margin: 0; }
 
 /**
@@ -511,12 +511,6 @@ body {
       .c-explore li:last-child {
         display: flex; } }
 
-.c-footer {
-  background: #FBFBFB;
-  border-top: 1px solid #C5C5C5;
-  text-align: center;
-  padding: 12rem 0 12rem 0; }
-
 .c-header__menu {
   display: none; }
   @media only screen and (min-width: 43.063em) {
@@ -576,7 +570,25 @@ body {
 .c-icons__play-icon:hover {
   cursor: pointer; }
   .c-icons__play-icon:hover path {
-    fill: rgba(255, 255, 255, 0.7); }
+    fill: rgba(255, 255, 255, 0.7);
+    transition: 0.4s; }
+
+.c-icons__stars {
+  display: inline-block; }
+  .c-icons__stars polygon {
+    fill: #E19F08; }
+  .c-icons__stars polygon:hover {
+    fill: #b07c06;
+    transition: 0.15s; }
+
+.c-icons__stars:hover {
+  cursor: pointer;
+  transition: 0.15s; }
+
+.c-icons__stars--empty {
+  display: inline-block; }
+  .c-icons__stars--empty polygon {
+    fill: #b07c06; }
 
 .c-images__1 {
   background: url("/assets/i-tonya-new.png");
@@ -612,7 +624,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/maisel_new.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__5 {
   background: url("/assets/crown_new.jpg");
@@ -622,7 +635,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown_new.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__6 {
   background: url("/assets/us_new.jpg");
@@ -632,7 +646,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/us_new.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__7 {
   background: url("/assets/kids.png");
@@ -642,7 +657,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/kids.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__8 {
   background: url("/assets/parents.png");
@@ -652,7 +668,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parents.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__9 {
   background: url("/assets/date.png");
@@ -662,7 +679,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/date.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__10 {
   background: url("/assets/party.png");
@@ -672,7 +690,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/party.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__11 {
   background: url("/assets/breakup.png");
@@ -682,7 +701,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/breakup.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__12 {
   background: url("/assets/tbt.png");
@@ -692,7 +712,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/tbt.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__13 {
   background: url("/assets/screwball.png");
@@ -702,7 +723,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/screwball.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__14 {
   background: url("/assets/french.png");
@@ -712,7 +734,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/french.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__15 {
   background: url("/assets/film.png");
@@ -722,7 +745,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/film.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__16 {
   background: url("/assets/female.png");
@@ -732,7 +756,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/female.png");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__17 {
   background: url("/assets/breaking-bad.png");
@@ -747,7 +772,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/arrested.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__19 {
   background: url("/assets/office2.jpg");
@@ -757,7 +783,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office2.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__20 {
   background: url("/assets/sunny2.jpg");
@@ -767,7 +794,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/sunny2.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__21 {
   background: url("/assets/parks2.jpg");
@@ -777,7 +805,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parks2.jpg");
     background-size: cover;
     background-position: center center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.4s; }
 
 .c-images__22 {
   background: url("/assets/lady-bird.png");
@@ -961,21 +990,6 @@ body {
   height: 2.4rem;
   padding-left: 2.5rem;
   width: 100%; }
-
-.c-stars {
-  display: inline-block; }
-  .c-stars polygon {
-    fill: #E19F08; }
-  .c-stars polygon:hover {
-    fill: #b07c06; }
-
-.c-stars:hover {
-  cursor: pointer; }
-
-.c-stars--empty {
-  display: inline-block; }
-  .c-stars--empty polygon {
-    fill: #b07c06; }
 
 .c-streaming__item {
   height: 20rem; }

@@ -19,5 +19,32 @@
 
   path {
     fill: $color-white-hover;
+    transition: $duration-slowly;
+  }
+}
+
+.c-icons__stars {
+  display: inline-block;
+
+  polygon {
+    fill: $color-secondary;
+  }
+
+  polygon:hover {
+    fill: $color-secondary-hover;
+    transition: $duration-immediately;
+  }
+}
+
+.c-icons__stars:hover {
+  cursor: pointer;
+  transition: $duration-immediately;
+}
+
+.c-icons__stars--empty {
+  display: inline-block;
+
+  polygon {
+    fill: $color-secondary-hover;
   }
 }

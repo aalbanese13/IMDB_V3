@@ -1,6 +1,6 @@
 // Colors
 
-$color-background: #FFFFFF;
+$color-background: #FFF;
 
 $color-primary: #01508D;
 $color-primary-hover: darken($color-primary, 10%);
@@ -17,16 +17,6 @@ $color-accent: #C5C5C5;
 $color-accent-text: darken($color-accent, 10%);
 $color-accent-secondary: #C5C5C5;
 $color-accent-hover: darken($color-accent, 10%);
-
-$color-border-light: #ECECEC;
-$color-border: #E7E7E7;
-$color-border-secondary: #DEE4E4;
-$color-border-dark: #C5C5C5;
-$color-border-input: rgba($color-black, .15);
-$color-border-input-hover: rgba($color-black, .30);
-$color-border-input-active: rgba($color-black, .40);
-
-$color-shadow: #EFEFEF;
 
 // Fonts
 
@@ -53,9 +43,6 @@ $line-height-heading: 1.25;
 $line-height-text: 1.5;
 $line-height-tall: 2.2;
 
-// Kerning
-
-$letter-spacing-narrow: -10px;
 
 // Spacing
 
@@ -90,31 +77,14 @@ $border-radius-pill: 240px;
 
 $card-border-radius: $border-radius-medium;
 
-// Shadow
-
-$shadow-subtle: 0 2px 4px 0 lighten($color-shadow, 50%);
-$shadow-small: 0 2px 4px 0 $color-shadow;
-$shadow-medium: 0 6px 6px 0 $color-shadow;
-$shadow-large: 0 8px 16px 0 $color-shadow;
-$shadow-big: 0 16px 24px 0 $color-shadow;
-$shadow-deep: 0 24px 32px 0 $color-shadow;
-$shadow-right: 2px 2px 2px 0 darken($color-shadow, 5%);
 
 // Time
 
 $duration-quickly: .1s;
-$duration-immediately: .05s;
+$duration-immediately: .15s;
 $duration-toast-medium: 9.6s;
 $duration-slowly: .4s;
 $duration-toast-short: 4.8s;
 $duration-paused: 3.2s;
 $duration-promptly: .2s;
 $duration-slide: .25s;
-
-// Z-index
-
-$z-index-spinner: 9000;
-$z-index-default: 1;
-$z-index-toast: 10000;
-$z-index-modal: 8000;
-$z-index-panel: 7000;

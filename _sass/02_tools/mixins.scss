@@ -17,4 +17,5 @@
 
 @mixin image-hover {
   cursor: pointer;
+  transition: $duration-slowly;
 }
