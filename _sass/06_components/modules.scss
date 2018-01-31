@@ -53,7 +53,8 @@
   }
 }
 
-.c-module__mobile-off {
+.c-module__mobile-off,
+.c-module__supplement {
   display: none;
 
   @media #{$medium-up} {
