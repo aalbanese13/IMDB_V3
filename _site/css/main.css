@@ -570,7 +570,7 @@ body {
 .c-icons__play-icon:hover {
   cursor: pointer; }
   .c-icons__play-icon:hover path {
-    fill: rgba(255, 255, 255, 0.7);
+    fill: rgba(255, 255, 255, 0.6);
     transition: 0.4s; }
 
 .c-icons__stars {
@@ -1030,7 +1030,7 @@ body {
       display: none; } }
 
 .c-button:hover {
-  background-color: #b07c06;
+  background-color: #E19F08;
   border-style: none;
   color: #FFF;
   cursor: pointer;
