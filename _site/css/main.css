@@ -928,6 +928,20 @@ body {
     .c-module__supplement {
       display: block; } }
 
+.c-module__supplement {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-module__supplement {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .c-module__supplement a {
+        margin-left: 0.625rem; } }
+
 .c-released__trailer {
   align-items: center;
   display: flex;

@@ -65,3 +65,20 @@
     display: block;
    }
 }
+
+.c-module__supplement {
+  display: none;
+
+  @media #{$medium-up} {
+
+    @include no-bullet;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    a {
+      margin-left: $spacing-x-small;
+    }
+  }
+}
