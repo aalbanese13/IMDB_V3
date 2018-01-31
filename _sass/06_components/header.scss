@@ -2,12 +2,19 @@
   display: none;
 
   @media #{$medium-up} {
+
+    @include no-bullet;
     display: inline-flex;
     float: right;
     margin: 0;
 
-    h3 {
+    a {
       color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-white-hover;
+      }
     }
 
     li {

@@ -21,6 +21,7 @@
 }
 
 .c-watch__secondary {
+  @include no-bullet;
   flex-wrap: wrap;
 
   @media #{$medium-up} {
