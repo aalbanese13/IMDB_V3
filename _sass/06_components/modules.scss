@@ -8,8 +8,12 @@
   width: calc(50% - .3125rem);
 
   @media #{$medium-up} {
-    width: calc(33% - .75rem);
+    width: calc(33% - .4rem);
    }
+
+  @media #{$large-up} {
+    width: calc(33% - .75rem);
+  }
 }
 
 .c-module__card {

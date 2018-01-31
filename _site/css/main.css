@@ -883,6 +883,9 @@ body {
   width: calc(50% - .3125rem); }
   @media only screen and (min-width: 43.063em) {
     .c-module__panel {
+      width: calc(33% - .4rem); } }
+  @media only screen and (min-width: 75.063em) {
+    .c-module__panel {
       width: calc(33% - .75rem); } }
 
 .c-module__card {
@@ -999,7 +1002,7 @@ body {
   width: 100%; }
 
 .c-streaming__item {
-  height: 20rem; }
+  height: 15rem; }
   @media only screen and (min-width: 43.063em) {
     .c-streaming__item {
       height: 28rem; } }
