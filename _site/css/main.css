@@ -484,13 +484,13 @@ body {
       padding: 0 1.5rem; } }
 
 .o-wrapper__module {
-  padding: 2.2rem 0; }
+  padding: 1.5rem 0; }
   @media only screen and (min-width: 43.063em) {
     .o-wrapper__module {
-      padding: 2.2rem 0; } }
+      padding: 1.1rem 0; } }
   @media only screen and (min-width: 75.063em) {
     .o-wrapper__module {
-      padding: 2.2rem 0; } }
+      padding: 1.1rem 0; } }
 
 .c-explore {
   width: 100%; }
@@ -527,7 +527,7 @@ body {
       .c-header__menu h3 {
         color: #FFF; }
       .c-header__menu li {
-        padding-left: 2.2rem; } }
+        padding-left: 1.1rem; } }
 
 .c-header {
   background: url("/assets/top-bar-bg.png");
