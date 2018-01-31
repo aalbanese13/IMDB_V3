@@ -86,3 +86,11 @@
     }
   }
 }
+
+.c-module__line {
+  color: $color-accent;
+
+  @media #{$medium-up} {
+    display: none;
+   }
+}
