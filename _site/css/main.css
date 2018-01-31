@@ -398,7 +398,7 @@ template {
   display: none; }
 
 a {
-  color: #01508D;
+  color: #424342;
   text-decoration: underline; }
 
 ul {
@@ -415,7 +415,7 @@ ul {
 
 [type="text"]:focus {
   border-radius: 5px;
-  outline: 2px solid #E19F08; }
+  outline: 2px solid #969191; }
 
 html {
   font-family: "Ubuntu", sans-serif;
@@ -423,8 +423,8 @@ html {
   line-height: 1.5; }
 
 h1 {
-  color: #3E4045;
-  font-size: 1.5rem;
+  color: #424342;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.25; }
   @media only screen and (min-width: 43.063em) {
@@ -435,32 +435,34 @@ h1 {
       font-size: 3.25rem; } }
 
 h2 {
-  color: #3E4045;
-  font-size: 1.25rem;
+  color: #424342;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.25; }
 
 h3 {
   color: #E19F08;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase; }
-  @media only screen and (min-width: 75.063em) {
-    h3 {
-      font-size: 1.5rem; } }
+
+h5 {
+  color: #969191;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: none; }
+
+h4 {
+  color: #424342; }
 
 p {
-  color: #01508D;
+  color: #424342;
   font-size: 1rem;
   margin: 0; }
 
-small {
-  color: #C5C5C5;
-  font-size: 0.75rem; }
-
 body {
-  background-color: #E7EFF4;
+  background-color: #F4EEEE;
   width: 100%; }
 
 .o-wrapper__max-width {
@@ -536,7 +538,7 @@ body {
       .c-header__content h2 {
         color: #FFF;
         display: block;
-        font-size: 1.5rem; } }
+        font-size: 2rem; } }
   @media only screen and (min-width: 43.063em) {
     .c-header__content {
       display: flex;
@@ -907,7 +909,7 @@ body {
 .c-module__card--large {
   width: 100%; }
   .c-module__card--large li {
-    border: 2px solid #01508D;
+    border: 2px solid #424342;
     list-style-type: none;
     width: 100%; }
   .c-module__card--large li:first-child {
@@ -1030,7 +1032,7 @@ body {
   border: 2px solid #E19F08;
   border-radius: 3px;
   height: 2.6rem;
-  margin-top: 1.3rem;
+  margin-top: 1.1rem;
   width: 100%; }
   @media only screen and (min-width: 43.063em) {
     .c-button {
@@ -1049,7 +1051,7 @@ body {
   align-items: center;
   display: flex;
   margin-bottom: 0;
-  margin-top: 1.3rem; }
+  margin-top: 1.1rem; }
   .c-button__icon-text path {
     fill: #E19F08; }
 

@@ -2,20 +2,14 @@
 
 $color-background: #FFF;
 
-$color-primary: #01508D;
+$color-primary: #424342;
 $color-primary-hover: darken($color-primary, 10%);
-$color-primary-secondary: #9FADD3;
-$color-secondary: #E19F08;
+$color-secondary: #969191;
 $color-secondary-hover: darken($color-secondary, 10%);
-$color-black: #3E4045;
-$color-black-secondary: rgba($color-black, .5);
 $color-white: #FFF;
 $color-white-hover: rgba($color-white, .6);
-$color-off-white: #FBFBFB;
-$color-off-white-blue: #E7EFF4;
-$color-accent: #C5C5C5;
-$color-accent-text: darken($color-accent, 10%);
-$color-accent-secondary: #C5C5C5;
+$color-off-white: #F4EEEE;
+$color-accent: #E19F08;
 $color-accent-hover: darken($color-accent, 10%);
 
 // Fonts
@@ -27,9 +21,9 @@ $font-weight-bold: 700;
 
 // Font Size
 
-$font-size-heading-x-small: .75rem;
-$font-size-heading-small: 1.25rem;
-$font-size-heading-medium: 1.5rem;
+$font-size-heading-x-small: .9rem;
+$font-size-heading-small: 1.5rem;
+$font-size-heading-medium: 2rem;
 $font-size-heading-large: 2.25rem;
 $font-size-heading-x-large: 3.25rem;
 

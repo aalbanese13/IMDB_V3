@@ -27,11 +27,11 @@
   display: inline-block;
 
   polygon {
-    fill: $color-secondary;
+    fill: $color-accent;
   }
 
   polygon:hover {
-    fill: $color-secondary-hover;
+    fill: $color-accent-hover;
     transition: $duration-immediately;
   }
 }
@@ -45,6 +45,6 @@
   display: inline-block;
 
   polygon {
-    fill: $color-secondary-hover;
+    fill: $color-accent-hover;
   }
 }

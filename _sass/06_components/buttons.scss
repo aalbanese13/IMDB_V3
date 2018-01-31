@@ -1,8 +1,8 @@
 .c-button {
-  border: 2px solid $color-secondary;
+  border: 2px solid $color-accent;
   border-radius: 3px;
   height: 2.6rem;
-  margin-top: $spacing-small;
+  margin-top: $spacing-x-small;
   width: 100%;
 
   @media #{$medium-up} {
@@ -11,7 +11,7 @@
 }
 
 .c-button:hover {
-  background-color: $color-secondary;
+  background-color: $color-accent;
   border-style: none;
   color: $color-white;
   cursor: pointer;
@@ -26,10 +26,10 @@
   align-items: center;
   display: flex;
   margin-bottom: 0;
-  margin-top: $spacing-small;
+  margin-top: $spacing-x-small;
 
   path {
-    fill: $color-secondary;
+    fill: $color-accent;
   }
 }
 
@@ -37,7 +37,7 @@
   cursor: pointer;
 
   path {
-    fill: $color-secondary-hover;
+    fill: $color-accent-hover;
     transition: $duration-slowly;
   }
 }
