@@ -1026,7 +1026,8 @@ body {
   background-color: #b07c06;
   border-style: none;
   color: #FFF;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.4s; }
   .c-button:hover h3 {
     color: #FFF; }
 
@@ -1041,7 +1042,8 @@ body {
 .c-button__icon-text:hover {
   cursor: pointer; }
   .c-button__icon-text:hover path {
-    fill: #b07c06; }
+    fill: #b07c06;
+    transition: 0.4s; }
 
 .c-box-office__content {
   padding: 1.1rem; }

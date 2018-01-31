@@ -15,6 +15,7 @@
   border-style: none;
   color: $color-white;
   cursor: pointer;
+  transition: $duration-slowly;
 
   h3 {
     color: $color-white;
@@ -37,5 +38,6 @@
 
   path {
     fill: $color-secondary-hover;
+    transition: $duration-slowly;
   }
 }
