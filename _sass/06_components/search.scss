@@ -1,12 +1,12 @@
 .c-search {
   background-image: url('/assets/search-icon2.svg');
-  background-position: $spacing-x-small 50%;
+  background-position: $spacing-xx-small 50%;
   background-repeat: no-repeat;
   border-radius: $border-radius-medium;
   border-style: none;
   font-family: $font-family;
   font-size: $font-size-text-medium;
   height: 2.4rem;
-  padding-left: 2.5rem;
+  padding-left: $spacing-large;
   width: 100%;
 }
