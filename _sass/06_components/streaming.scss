@@ -8,4 +8,26 @@
   @media #{$large-up} {
     height: 40rem;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.c-streaming {
+
+  h2,
+  h3,
+  h5, {
+    margin-top: $spacing-x-small;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: $spacing-small;
+  }
+
+  h5 {
+    margin-top: 0;
+  }
 }
