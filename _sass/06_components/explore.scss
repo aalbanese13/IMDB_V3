@@ -2,16 +2,16 @@
   width: 100%;
 
   li {
-    height: 12rem;
+    height: 14rem;
     width: calc(33% - .3rem);
 
     @media #{$medium-up} {
-      height: 20rem;
+      height: 22rem;
       width: calc(25% - .75rem);
     }
 
     @media #{$large-up} {
-      height: 32rem;
+      height: 28rem;
       width: calc(25% - .75rem);
     }
   }

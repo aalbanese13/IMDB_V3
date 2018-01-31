@@ -489,15 +489,15 @@ body {
 .c-explore {
   width: 100%; }
   .c-explore li {
-    height: 12rem;
+    height: 14rem;
     width: calc(33% - .3rem); }
     @media only screen and (min-width: 43.063em) {
       .c-explore li {
-        height: 20rem;
+        height: 22rem;
         width: calc(25% - .75rem); } }
     @media only screen and (min-width: 75.063em) {
       .c-explore li {
-        height: 32rem;
+        height: 28rem;
         width: calc(25% - .75rem); } }
   .c-explore li:last-child {
     display: none; }
