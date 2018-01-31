@@ -498,7 +498,7 @@ body {
     @media only screen and (min-width: 75.063em) {
       .c-explore li {
         height: 28rem;
-        width: calc(25% - .75rem); } }
+        width: calc(25% - 1.1rem); } }
   .c-explore li:last-child {
     display: none; }
     @media only screen and (min-width: 43.063em) {
@@ -827,7 +827,7 @@ body {
   height: 18rem; }
   @media only screen and (min-width: 43.063em) {
     .c-watch__primary {
-      width: calc(50% - .75rem); } }
+      width: calc(50% - .8rem); } }
   @media only screen and (min-width: 75.063em) {
     .c-watch__primary {
       height: 25rem;
@@ -838,23 +838,27 @@ body {
   @media only screen and (min-width: 43.063em) {
     .c-watch__secondary {
       height: 18rem;
-      width: calc(50% - .75rem); } }
+      width: calc(50% - .4rem); } }
   @media only screen and (min-width: 75.063em) {
     .c-watch__secondary {
       height: 25rem;
       width: calc(50% - .75rem); } }
   .c-watch__secondary li {
     height: 5rem;
-    margin-top: 1.1rem;
+    margin-top: 0.625rem;
     width: calc(25% - .325rem); }
     @media only screen and (min-width: 43.063em) {
       .c-watch__secondary li {
         height: auto;
+        margin-bottom: .8rem;
         margin-top: 0;
-        margin-bottom: 1rem;
-        width: calc(50% - .75rem); }
+        width: calc(50% - .4rem); }
         .c-watch__secondary li:nth-of-type(3), .c-watch__secondary li:nth-of-type(4) {
           margin-bottom: 0; } }
+    @media only screen and (min-width: 75.063em) {
+      .c-watch__secondary li {
+        margin-bottom: 1.5rem;
+        width: calc(50% - .75rem); } }
 
 .c-occasion {
   flex-wrap: wrap;
