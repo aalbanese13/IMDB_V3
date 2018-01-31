@@ -1117,6 +1117,34 @@ body {
     color: #FFF;
     transition: 0.4s; }
 
+.c-footer {
+  padding: 1.5rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/top-bar.png"); }
+  .c-footer h3,
+  .c-footer p {
+    color: #FFF;
+    margin-top: 0; }
+
+.c-footer__social {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: inline-flex;
+  align-items: center; }
+  .c-footer__social li {
+    margin-left: 0.625rem;
+    line-height: 0; }
+    .c-footer__social li:first-child {
+      margin: 0; }
+  .c-footer__social path,
+  .c-footer__social g {
+    fill: #E19F08; }
+  .c-footer__social a:hover {
+    cursor: pointer; }
+    .c-footer__social a:hover path,
+    .c-footer__social a:hover g {
+      fill: #b07c06; }
+
 .c-box-office__content {
   padding: 1.3rem; }
 

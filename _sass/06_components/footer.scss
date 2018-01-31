@@ -1,0 +1,40 @@
+.c-footer {
+    padding: $spacing-medium 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/top-bar.png');
+
+    h3,
+    p {
+      color: $color-white;
+      margin-top: 0;
+    }
+}
+
+.c-footer__social {
+  @include no-bullet;
+
+  display: inline-flex;
+  align-items: center;
+
+  li {
+    margin-left: $spacing-xx-small;
+    line-height: 0;
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+
+  path,
+  g {
+    fill: $color-accent;
+  }
+
+  a:hover {
+    cursor: pointer;
+
+    path,
+    g {
+      fill: $color-accent-hover;
+    }
+  }
+}
