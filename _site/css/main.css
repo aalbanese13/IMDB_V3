@@ -864,12 +864,13 @@ body {
     width: calc(33% - .3rem); }
     @media only screen and (min-width: 43.063em) {
       .c-occasion li {
-        width: calc(16% - .65rem); } }
+        width: calc(16% - .4rem); } }
     @media only screen and (min-width: 75.063em) {
       .c-occasion li {
-        height: 12rem; } }
+        height: 10rem;
+        width: calc(16% - .75rem); } }
   .c-occasion li:nth-child(n+4) {
-    margin-top: 1.1rem; }
+    margin-top: 0.625rem; }
     @media only screen and (min-width: 43.063em) {
       .c-occasion li:nth-child(n+4) {
         margin: 0; } }

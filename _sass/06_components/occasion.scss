@@ -7,16 +7,17 @@
     width: calc(33% - .3rem);
 
     @media #{$medium-up} {
-      width: calc(16% - .65rem);
+      width: calc(16% - .4rem);
     }
 
     @media #{$large-up} {
-      height: 12rem;
+      height: 10rem;
+      width: calc(16% - .75rem);
     }
   }
 
   li:nth-child(n+4) {
-    margin-top: $spacing-x-small;
+    margin-top: $spacing-xx-small;
 
     @media #{$medium-up} {
       margin: 0;
