@@ -1043,8 +1043,10 @@ body {
 .c-button {
   border: 2px solid #E19F08;
   border-radius: 3px;
-  height: 2.6rem;
-  margin-top: 1.1rem;
+  display: flex;
+  height: 3rem;
+  justify-content: space-around;
+  margin-top: 1.3rem;
   width: 100%; }
   @media only screen and (min-width: 43.063em) {
     .c-button {
@@ -1057,20 +1059,30 @@ body {
   cursor: pointer;
   transition: 0.4s; }
   .c-button:hover h3 {
-    color: #FFF; }
+    color: #FFF;
+    transition: 0.4s; }
 
 .c-button__icon-text {
   align-items: center;
+  border: 2px solid #E19F08;
+  border-radius: 3px;
   display: flex;
-  margin-bottom: 0;
-  margin-top: 1.1rem; }
+  flex-wrap: wrap;
+  line-height: 0;
+  margin-top: 0;
+  padding: 0 0.625rem; }
   .c-button__icon-text path {
     fill: #E19F08; }
 
 .c-button__icon-text:hover {
-  cursor: pointer; }
+  background-color: #E19F08;
+  cursor: pointer;
+  transition: 0.4s; }
   .c-button__icon-text:hover path {
-    fill: #b07c06;
+    fill: #FFF;
+    transition: 0.4s; }
+  .c-button__icon-text:hover h3 {
+    color: #FFF;
     transition: 0.4s; }
 
 .c-box-office__content {

@@ -5,7 +5,7 @@ body {
 
 .o-wrapper__max-width {
   background-color: $color-white;
-  margin: 0 auto;
+  margin: $positioning-centered;
   max-width: 87em;
 }
 
