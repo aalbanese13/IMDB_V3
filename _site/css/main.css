@@ -524,15 +524,14 @@ body {
         padding-left: 1.5rem; } }
 
 .c-header {
-  background: url("/assets/top-bar-bg.png");
-  background-position: cover;
-  background-repeat: no-repeat; }
+  background: url("/assets/top-bar.png");
+  background-size: cover;
+  background-position: center center; }
   @media only screen and (min-width: 43.063em) {
     .c-header {
-      background: url("/assets/i-tonya-new.png"); } }
-  @media only screen and (min-width: 75.063em) {
-    .c-header {
-      background: url("/assets/i-tonya-new.png"); } }
+      background: url("/assets/i-tonya-large.png");
+      background-size: cover;
+      background-position: center center; } }
 
 .c-header__content {
   margin-top: 1.1rem;
@@ -591,7 +590,7 @@ body {
     fill: #b07c06; }
 
 .c-images__1 {
-  background: url("/assets/i-tonya-new.jpg");
+  background: url("/assets/i-tonya-small.jpg");
   background-size: cover;
   background-position: center center; }
   @media only screen and (min-width: 43.063em) {
@@ -617,33 +616,33 @@ body {
       display: flex; } }
 
 .c-images__4 {
-  background: url("/assets/maisel_new.jpg");
+  background: url("/assets/maisel.jpg");
   background-size: cover;
   background-position: center center; }
   .c-images__4:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/maisel_new.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/maisel.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
     transition: 0.4s; }
 
 .c-images__5 {
-  background: url("/assets/crown_new.jpg");
+  background: url("/assets/crown.jpg");
   background-size: cover;
   background-position: center center; }
   .c-images__5:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown_new.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
     transition: 0.4s; }
 
 .c-images__6 {
-  background: url("/assets/us_new.jpg");
+  background: url("/assets/us.jpg");
   background-size: cover;
   background-position: center center; }
   .c-images__6:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/us_new.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/us.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
@@ -776,33 +775,33 @@ body {
     transition: 0.4s; }
 
 .c-images__19 {
-  background: url("/assets/office2.jpg");
+  background: url("/assets/office.jpg");
   background-size: cover;
   background-position: center center; }
   .c-images__19:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
     transition: 0.4s; }
 
 .c-images__20 {
-  background: url("/assets/sunny2.jpg");
+  background: url("/assets/sunny.jpg");
   background-size: cover;
   background-position: center center; }
   .c-images__20:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/sunny2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/sunny.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
     transition: 0.4s; }
 
 .c-images__21 {
-  background: url("/assets/parks2.jpg");
+  background: url("/assets/parks.jpg");
   background-size: cover;
   background-position: center center; }
   .c-images__21:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parks2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parks.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
@@ -978,14 +977,6 @@ body {
 @media only screen and (min-width: 43.063em) {
   .c-released__heading {
     display: none; } }
-
-.c-released__swipeys {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1.1rem; }
-  @media only screen and (min-width: 43.063em) {
-    .c-released__swipeys {
-      display: none; } }
 
 .c-search {
   background-image: url("/assets/search-icon2.svg");

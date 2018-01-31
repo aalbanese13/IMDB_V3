@@ -17,16 +17,12 @@
 }
 
 .c-header {
-  background: url('/assets/top-bar-bg.png');
-  background-position: cover;
-  background-repeat: no-repeat;
+  background: url('/assets/top-bar.png');
+  @include cover-center;
 
   @media #{$medium-up} {
-    background: url('/assets/i-tonya-new.png');
-  }
-
-  @media #{$large-up} {
-    background: url('/assets/i-tonya-new.png');
+    background: url('/assets/i-tonya-large.png');
+    @include cover-center;
   }
 }
 

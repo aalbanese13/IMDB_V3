@@ -1,5 +1,5 @@
 .c-images__1 {
-  background: url('/assets/i-tonya-new.jpg');
+  background: url('/assets/i-tonya-small.jpg');
   @include cover-center;
 
   @media #{$medium-up} {
@@ -28,33 +28,33 @@
 }
 
 .c-images__4 {
-  background: url('/assets/maisel_new.jpg');
+  background: url('/assets/maisel.jpg');
   @include cover-center;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/maisel_new.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/maisel.jpg');
     @include cover-center;
     @include image-hover;
   }
 }
 
 .c-images__5 {
-  background: url('/assets/crown_new.jpg');
+  background: url('/assets/crown.jpg');
   @include cover-center;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/crown_new.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/crown.jpg');
     @include cover-center;
     @include image-hover;
   }
 }
 
 .c-images__6 {
-  background: url('/assets/us_new.jpg');
+  background: url('/assets/us.jpg');
   @include cover-center;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/us_new.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/us.jpg');
     @include cover-center;
     @include image-hover;
   }
@@ -187,33 +187,33 @@
 }
 
 .c-images__19 {
-  background: url('/assets/office2.jpg');
+  background: url('/assets/office.jpg');
   @include cover-center;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/office2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/office.jpg');
     @include cover-center;
     @include image-hover;
   }
 }
 
 .c-images__20 {
-  background: url('/assets/sunny2.jpg');
+  background: url('/assets/sunny.jpg');
   @include cover-center;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/sunny2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/sunny.jpg');
     @include cover-center;
     @include image-hover;
   }
 }
 
 .c-images__21 {
-  background: url('/assets/parks2.jpg');
+  background: url('/assets/parks.jpg');
   @include cover-center;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/parks2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/parks.jpg');
     @include cover-center;
     @include image-hover;
   }
