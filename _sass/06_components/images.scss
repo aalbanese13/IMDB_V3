@@ -39,12 +39,11 @@
 }
 
 .c-images__5 {
-  background: url('/assets/crown.jpg');
+  background-image: url('/assets/crown.jpg');
   @include cover-center;
-  transition: $duration-slowly;
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/crown.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/crown.jpg');
     @include cover-center;
     @include image-hover;
   }

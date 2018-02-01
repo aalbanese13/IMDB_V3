@@ -644,12 +644,11 @@ body {
     transition: 0.4s; }
 
 .c-images__5 {
-  background: url("/assets/crown.jpg");
+  background-image: url("/assets/crown.jpg");
   background-size: cover;
-  background-position: center center;
-  transition: 0.4s; }
+  background-position: center center; }
   .c-images__5:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown.jpg");
     background-size: cover;
     background-position: center center;
     cursor: pointer;
@@ -1086,6 +1085,7 @@ body {
   border: 2px solid #E19F08;
   border-radius: 3px;
   display: flex;
+  font-family: "Ubuntu", sans-serif;
   height: 3rem;
   justify-content: space-around;
   margin-top: 1.3rem;
@@ -1093,6 +1093,9 @@ body {
   @media only screen and (min-width: 43.063em) {
     .c-button {
       display: none; } }
+  .c-button p {
+    color: #E19F08;
+    font-weight: 700; }
 
 .c-button:hover {
   background-color: #E19F08;
@@ -1100,7 +1103,7 @@ body {
   color: #FFF;
   cursor: pointer;
   transition: 0.4s; }
-  .c-button:hover h3 {
+  .c-button:hover p {
     color: #FFF;
     transition: 0.4s; }
 
@@ -1110,11 +1113,15 @@ body {
   border-radius: 3px;
   display: flex;
   flex-wrap: wrap;
+  font-family: "Ubuntu", sans-serif;
   line-height: 0;
-  margin-top: 0;
-  padding: 0 0.625rem; }
+  margin-top: 0; }
   .c-button__icon-text path {
     fill: #E19F08; }
+  .c-button__icon-text p {
+    color: #E19F08;
+    font-weight: 700;
+    padding: 0 0.625rem; }
 
 .c-button__icon-text:hover {
   background-color: #E19F08;
@@ -1123,7 +1130,7 @@ body {
   .c-button__icon-text:hover path {
     fill: #FFF;
     transition: 0.4s; }
-  .c-button__icon-text:hover h3 {
+  .c-button__icon-text:hover p {
     color: #FFF;
     transition: 0.4s; }
 
