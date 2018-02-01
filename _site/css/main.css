@@ -606,238 +606,154 @@ body {
   .c-icons__stars--empty polygon {
     fill: #b07c06; }
 
-.c-images__1 {
-  background: url("/assets/i-tonya-small.jpg");
+.c-images__1,
+.c-images__2,
+.c-images__3,
+.c-images__4,
+.c-images__5,
+.c-images__6,
+.c-images__7,
+.c-images__8,
+.c-images__9,
+.c-images__10,
+.c-images__11,
+.c-images__12,
+.c-images__13,
+.c-images__14,
+.c-images__15,
+.c-images__16,
+.c-images__17,
+.c-images__18,
+.c-images__19,
+.c-images__20,
+.c-images__21,
+.c-images__22,
+.c-images__23,
+.c-images__24 {
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  cursor: pointer;
+  transition: 0.4s ease-in-out; }
+
+.c-images__2,
+.c-images__3 {
+  display: none; }
+  @media only screen and (min-width: 43.063em) {
+    .c-images__2,
+    .c-images__3 {
+      display: flex; } }
+
+.c-images__1 {
+  background-image: url("/assets/i-tonya-small.jpg");
+  display: flex; }
   @media only screen and (min-width: 43.063em) {
     .c-images__1 {
       display: none; } }
 
-.c-images__2 {
-  display: none; }
-  @media only screen and (min-width: 43.063em) {
-    .c-images__2 {
-      background: url("/assets/the-post.png");
-      background-size: cover;
-      background-position: center center;
-      display: flex; } }
+@media only screen and (min-width: 43.063em) {
+  .c-images__2 {
+    background-image: url("/assets/the-post.png"); } }
 
-.c-images__3 {
-  display: none; }
-  @media only screen and (min-width: 43.063em) {
-    .c-images__3 {
-      background: url("/assets/the-square.png");
-      background-size: cover;
-      background-position: center center;
-      display: flex; } }
+@media only screen and (min-width: 43.063em) {
+  .c-images__3 {
+    background-image: url("/assets/the-square.png"); } }
 
 .c-images__4 {
-  background: url("/assets/maisel.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/maisel.jpg"); }
   .c-images__4:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/maisel.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/maisel.jpg"); }
 
 .c-images__5 {
-  background-image: url("/assets/crown.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/crown.jpg"); }
   .c-images__5:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown.jpg"); }
 
 .c-images__6 {
-  background: url("/assets/us.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/us.jpg"); }
   .c-images__6:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/us.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/us.jpg"); }
 
 .c-images__7 {
-  background: url("/assets/kids.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/kids.png"); }
   .c-images__7:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/kids.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/kids.png"); }
 
 .c-images__8 {
-  background: url("/assets/parents.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/parents.png"); }
   .c-images__8:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parents.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parents.png"); }
 
 .c-images__9 {
-  background: url("/assets/date.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/date.png"); }
   .c-images__9:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/date.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/date.png"); }
 
 .c-images__10 {
-  background: url("/assets/party.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/party.png"); }
   .c-images__10:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/party.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/party.png"); }
 
 .c-images__11 {
-  background: url("/assets/breakup.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/breakup.png"); }
   .c-images__11:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/breakup.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/breakup.png"); }
 
 .c-images__12 {
-  background: url("/assets/tbt.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/tbt.png"); }
   .c-images__12:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/tbt.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/tbt.png"); }
 
 .c-images__13 {
-  background: url("/assets/screwball.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/screwball.png"); }
   .c-images__13:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/screwball.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/screwball.png"); }
 
 .c-images__14 {
-  background: url("/assets/french.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/french.png"); }
   .c-images__14:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/french.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/french.png"); }
 
 .c-images__15 {
-  background: url("/assets/film.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/film.png"); }
   .c-images__15:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/film.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/film.png"); }
 
 .c-images__16 {
-  background: url("/assets/female.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/female.png"); }
   .c-images__16:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/female.png");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/female.png"); }
 
 .c-images__17 {
-  background: url("/assets/breaking-bad.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/breaking-bad.png"); }
 
 .c-images__18 {
-  background: url("/assets/arrested.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/arrested.jpg"); }
   .c-images__18:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/arrested.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/arrested.jpg"); }
 
 .c-images__19 {
-  background: url("/assets/office.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/office.jpg"); }
   .c-images__19:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/office.jpg"); }
 
 .c-images__20 {
-  background: url("/assets/sunny.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/sunny.jpg"); }
   .c-images__20:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/sunny.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/sunny.jpg"); }
 
 .c-images__21 {
-  background: url("/assets/parks.jpg");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/parks.jpg"); }
   .c-images__21:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parks.jpg");
-    background-size: cover;
-    background-position: center center;
-    cursor: pointer;
-    transition: 0.4s; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/parks.jpg"); }
 
 .c-images__22 {
-  background: url("/assets/lady-bird.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/lady-bird.png"); }
 
 .c-images__23 {
-  background: url("/assets/showman.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/showman.png"); }
 
 .c-images__24 {
-  background: url("/assets/fantastic.png");
-  background-size: cover;
-  background-position: center center; }
+  background-image: url("/assets/fantastic.png"); }
 
 .c-watch {
   width: 100%; }

@@ -17,5 +17,5 @@
 
 @mixin image-hover {
   cursor: pointer;
-  transition: $duration-slowly;
+  transition: $duration-slowly ease-in-out;
 }

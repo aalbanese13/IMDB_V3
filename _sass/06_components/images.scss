@@ -1,6 +1,44 @@
-.c-images__1 {
-  background: url('/assets/i-tonya-small.jpg');
+.c-images__1,
+.c-images__2,
+.c-images__3,
+.c-images__4,
+.c-images__5,
+.c-images__6,
+.c-images__7,
+.c-images__8,
+.c-images__9,
+.c-images__10,
+.c-images__11,
+.c-images__12,
+.c-images__13,
+.c-images__14,
+.c-images__15,
+.c-images__16,
+.c-images__17,
+.c-images__18,
+.c-images__19,
+.c-images__20,
+.c-images__21,
+.c-images__22,
+.c-images__23,
+.c-images__24,
+ {
   @include cover-center;
+  @include image-hover;
+}
+
+.c-images__2,
+.c-images__3 {
+  display: none;
+
+  @media #{$medium-up} {
+    display: flex;
+  }
+}
+
+.c-images__1 {
+  background-image: url('/assets/i-tonya-small.jpg');
+  display: flex;
 
   @media #{$medium-up} {
     display: none;
@@ -8,228 +46,167 @@
 }
 
 .c-images__2 {
-  display: none;
 
   @media #{$medium-up} {
-    background: url('/assets/the-post.png');
-    @include cover-center;
-    display: flex;
+    background-image: url('/assets/the-post.png');
   }
 }
 
 .c-images__3 {
-  display: none;
 
   @media #{$medium-up} {
-    background: url('/assets/the-square.png');
-    @include cover-center;
-    display: flex;
+    background-image: url('/assets/the-square.png');
   }
 }
 
 .c-images__4 {
-  background: url('/assets/maisel.jpg');
-  @include cover-center;
+  background-image: url('/assets/maisel.jpg');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/maisel.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/maisel.jpg');
   }
 }
 
 .c-images__5 {
   background-image: url('/assets/crown.jpg');
-  @include cover-center;
 
   &:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/crown.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/crown.jpg');
   }
 }
 
 .c-images__6 {
-  background: url('/assets/us.jpg');
-  @include cover-center;
+  background-image: url('/assets/us.jpg');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/us.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/us.jpg');
   }
 }
 
 .c-images__7 {
-  background: url('/assets/kids.png');
-  @include cover-center;
+  background-image: url('/assets/kids.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/kids.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/kids.png');
   }
 }
 
 .c-images__8 {
-  background: url('/assets/parents.png');
-  @include cover-center;
+  background-image: url('/assets/parents.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/parents.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/parents.png');
   }
 }
 
 .c-images__9 {
-  background: url('/assets/date.png');
-  @include cover-center;
+  background-image: url('/assets/date.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/date.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/date.png');
   }
 }
 
 .c-images__10 {
-  background: url('/assets/party.png');
-  @include cover-center;
+  background-image: url('/assets/party.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/party.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/party.png');
   }
 }
 
 .c-images__11 {
-  background: url('/assets/breakup.png');
-  @include cover-center;
+  background-image: url('/assets/breakup.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/breakup.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/breakup.png');
   }
 }
 
 .c-images__12 {
-  background: url('/assets/tbt.png');
-  @include cover-center;
+  background-image: url('/assets/tbt.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/tbt.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/tbt.png');
   }
 }
 
 .c-images__13 {
-  background: url('/assets/screwball.png');
-  @include cover-center;
+  background-image: url('/assets/screwball.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/screwball.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/screwball.png');
   }
 }
 
 .c-images__14 {
-  background: url('/assets/french.png');
-  @include cover-center;
+  background-image: url('/assets/french.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/french.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/french.png');
   }
 }
 
 .c-images__15 {
-  background: url('/assets/film.png');
-  @include cover-center;
+  background-image: url('/assets/film.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/film.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/film.png');
   }
 }
 
 .c-images__16 {
-  background: url('/assets/female.png');
-  @include cover-center;
+  background-image: url('/assets/female.png');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/female.png');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/female.png');
   }
 }
 
 .c-images__17 {
-  background: url('/assets/breaking-bad.png');
-  @include cover-center;
+  background-image: url('/assets/breaking-bad.png');
 }
 
 .c-images__18 {
-  background: url('/assets/arrested.jpg');
-  @include cover-center;
+  background-image: url('/assets/arrested.jpg');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/arrested.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/arrested.jpg');
   }
 }
 
 .c-images__19 {
-  background: url('/assets/office.jpg');
-  @include cover-center;
+  background-image: url('/assets/office.jpg');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/office.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/office.jpg');
   }
 }
 
 .c-images__20 {
-  background: url('/assets/sunny.jpg');
-  @include cover-center;
+  background-image: url('/assets/sunny.jpg');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/sunny.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/sunny.jpg');
   }
 }
 
 .c-images__21 {
-  background: url('/assets/parks.jpg');
-  @include cover-center;
+  background-image: url('/assets/parks.jpg');
 
   &:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/parks.jpg');
-    @include cover-center;
-    @include image-hover;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/assets/parks.jpg');
   }
 }
 
 .c-images__22 {
-  background: url('/assets/lady-bird.png');
-  @include cover-center;
+  background-image: url('/assets/lady-bird.png');
 }
 
 .c-images__23 {
-  background: url('/assets/showman.png');
-  @include cover-center;
+  background-image: url('/assets/showman.png');
 }
 
 .c-images__24 {
-  background: url('/assets/fantastic.png');
-  @include cover-center;
+  background-image: url('/assets/fantastic.png');
 }
