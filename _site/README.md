@@ -1,3 +1,26 @@
-A nice README is a good way to help people engage in the project as well. A project with nice README and screenshots will get the attention of users better since it’s a direct way to explain why this project matters, and why people should use and contribute to the project. Good README should also include enough details to help a new user get started, e.g. how to compile, how to install, and how to start integrating.
+# IMDB Redesign
 
-https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+This is redesign of the IMDB home page that uses HTML and CSS only, links have hover states but do not lead anywhere.
+
+## ITCSS and BEM
+
+This project uses [ITCSS structure](https://github.com/8thlight/design-styleguide#scss) and [BEM Naming Convention](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) for clean, modular code in compliance with [8th Light Style Guide](https://github.com/8thlight/design-styleguide)
+
+## Jekyll Requirements
+
+This project runs on Jekyll. Before you start, make sure your system has the following:
+
+- GNU/ Linux, Unix, or macOS
+- Ruby v2.2.5 or above (run > `ruby -v` to check your installation)
+- RubyGems (run > `gem -v` to check)</li>
+- GCC and Make (run > `gcc -v`, `g++ -v` and `make -v`to check)
+
+## Install Jekyll with RubyGems
+
+> `gem install jekyll`
+
+## Starting the Server
+
+> `jekyll serve`
+
+By default, the server will run at `http://localhost:4000`.
