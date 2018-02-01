@@ -24,3 +24,9 @@ This project runs on Jekyll. Before you start, make sure your system has the fol
 > `jekyll serve`
 
 By default, the server will run at `http://localhost:4000`.
+
+## Known Issues
+
+Next steps will includes fixes for:
+
+- > `c-button__icon-text` doesn't wrap correctly at smallest medium size
