@@ -414,8 +414,9 @@ ul {
   height: 2.4rem; }
 
 [type="text"]:focus {
+  border: 2px solid #E19F08;
   border-radius: 5px;
-  outline: 2px solid #969191; }
+  outline: none; }
 
 html {
   font-family: "Ubuntu", sans-serif;
@@ -645,7 +646,8 @@ body {
 .c-images__5 {
   background: url("/assets/crown.jpg");
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  transition: 0.4s; }
   .c-images__5:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/crown.jpg");
     background-size: cover;
@@ -1040,6 +1042,14 @@ body {
   .c-released__heading {
     display: none; } }
 
+.c-released__swipeys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.3rem; }
+  @media only screen and (min-width: 43.063em) {
+    .c-released__swipeys {
+      display: none; } }
+
 .c-search {
   background-image: url("/assets/search-icon2.svg");
   background-position: 0.625rem 50%;
@@ -1065,8 +1075,8 @@ body {
 
 .c-streaming h2,
 .c-streaming h5 {
-  margin-top: 1.1rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 1.1rem; }
 .c-streaming h2 {
   margin-top: 1.3rem; }
 .c-streaming h5 {
