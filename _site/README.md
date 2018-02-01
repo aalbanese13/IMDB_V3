@@ -29,4 +29,6 @@ By default, the server will run at `http://localhost:4000`.
 
 Next steps will includes fixes for:
 
-- > `c-button__icon-text` doesn't wrap correctly at smallest medium size
+- wrap all clickable areas with an `<a>` tag instead of `<div>` to demonstrate semantic markup and give code more meaning
+- `c-button__icon-text` doesn't wrap correctly at smallest medium size
+- give `c-released__swipeys` hover states on mobile
